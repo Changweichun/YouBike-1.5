@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YouBike">
         <activity
+            android:name=".nav_login"
+            android:exported="false"
+            android:label="@string/title_activity_nav_login"
+            android:theme="@style/Theme.YouBike.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,42 +23,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".AccidentNotificationActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".ServiceCenterActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".InstructionsActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".EquipmentIntroductionActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".LeaseModeActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".SafeRideActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".FareDescriptionActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
     </application>
 
 </manifest>
