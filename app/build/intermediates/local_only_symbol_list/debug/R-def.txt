@@ -22,7 +22,6 @@ id iv1
 id iv2
 id iv3
 id iv4
-id map
 id menu
 id recycle_view
 id tabLayout
@@ -34,7 +33,6 @@ layout activity_fare_desc
 layout activity_instructions
 layout activity_lease_mode
 layout activity_main
-layout activity_maps
 layout activity_safe_ride
 layout activity_service_center
 layout fragment_lease_mode_one

@@ -2756,7 +2756,6 @@ id line3
 id linear
 id listMode
 id list_item
-id map
 id masked
 id match_constraint
 id match_parent
@@ -3092,7 +3091,6 @@ layout activity_fare_desc
 layout activity_instructions
 layout activity_lease_mode
 layout activity_main
-layout activity_maps
 layout activity_safe_ride
 layout activity_service_center
 layout custom_dialog
