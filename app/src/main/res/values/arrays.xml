@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <array name="one">
-        <item>通報類型</item>
-        <item>通報類型1</item>
-        <item>通報類型2</item>
-        <item>通報類型3</item>
-    </array>
-</resources>
