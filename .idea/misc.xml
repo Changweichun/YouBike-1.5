@@ -20,24 +20,13 @@
         <entry key="app/src/main/res/layout/activity_instructions.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_lease_mode.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_nav_login.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_safe_ride.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.23489583333333333" />
-        <entry key="app/src/main/res/layout/app_bar_nav_login.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/content_nav_login.xml" value="0.3129528985507246" />
-        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_lease_mode_one.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_lease_mode_two.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/nav_header_nav_login.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/menu/nav_login.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2085" />
       </map>
     </option>
   </component>
