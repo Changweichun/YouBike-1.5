@@ -24,5 +24,12 @@ public class MainActivity extends MyBaseActivity {
                 startActivity(new Intent(getApplicationContext(),InstructionsActivity.class));
             }
         });
+
+        findViewById(R.id.bt3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),LoginActivity.class));
+            }
+        });
     }
 }
