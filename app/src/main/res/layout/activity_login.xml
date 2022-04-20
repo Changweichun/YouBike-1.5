@@ -85,6 +85,7 @@
         android:textSize="23dp" />
 
     <TextView
+        android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

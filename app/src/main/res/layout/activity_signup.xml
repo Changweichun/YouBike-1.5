@@ -85,6 +85,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="date"
             android:hint="@string/birth"
             android:minHeight="48dp"
             android:paddingHorizontal="12dp" />

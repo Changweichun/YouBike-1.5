@@ -34,6 +34,7 @@ id iv4
 id login_button
 id menu
 id recycle_view
+id signup_button
 id tabLayout
 id tv
 id txtDetails

@@ -30,6 +30,21 @@
         </activity>
 
         <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".TermOfUseActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
             android:name=".InstructionsActivity"
             android:exported="false">
         </activity>

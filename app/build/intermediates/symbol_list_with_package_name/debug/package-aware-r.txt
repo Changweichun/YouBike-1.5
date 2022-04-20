@@ -2903,6 +2903,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_button
 id sin
 id skipCollapsed
 id skipped
