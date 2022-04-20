@@ -36,6 +36,18 @@
             android:exported="false" >
         </activity>
         <activity
+            android:name="com.android.youbike.LoginActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.android.youbike.TermOfUseActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="com.android.youbike.SignUpActivity"
+            android:exported="false" >
+        </activity>
+        <activity
             android:name="com.android.youbike.InstructionsActivity"
             android:exported="false" >
         </activity>
