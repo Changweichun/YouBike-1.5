@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_nav_login.xml" value="0.4" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_home.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_slideshow.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/nav_header_nav_login.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/menu/activity_main_drawer.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/menu/nav_login.xml" value="0.24947916666666667" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_accident_notification.xml" value="0.1" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_equipment_introduction.xml" value="0.1" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_fare_desc.xml" value="0.1" />
