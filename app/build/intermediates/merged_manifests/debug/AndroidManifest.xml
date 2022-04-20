@@ -16,12 +16,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.YouBike" >
-        <activity
-            android:name="com.android.youbike.nav_login"
-            android:exported="false"
-            android:label="@string/title_activity_nav_login"
-            android:theme="@style/Theme.YouBike.NoActionBar" />
         <activity
             android:name="com.android.youbike.MainActivity"
             android:exported="true" >
@@ -33,25 +29,32 @@
         </activity>
         <activity
             android:name="com.android.youbike.AccidentNotificationActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.ServiceCenterActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.InstructionsActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.EquipmentIntroductionActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.LeaseModeActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.SafeRideActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
         <activity
             android:name="com.android.youbike.FareDescriptionActivity"
-            android:exported="false" />
+            android:exported="false" >
+        </activity>
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -64,13 +67,6 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <uses-library
-            android:name="androidx.window.extensions"
-            android:required="false" />
-        <uses-library
-            android:name="androidx.window.sidecar"
-            android:required="false" />
     </application>
 
 </manifest>
