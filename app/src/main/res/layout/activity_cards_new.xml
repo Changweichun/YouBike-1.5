@@ -157,7 +157,7 @@
             android:id="@+id/textView15"
             android:layout_width="392dp"
             android:layout_height="26dp"
-            android:text="欲使用掃碼租車，請新增<掃碼綁定卡>，並選擇支付工具"
+            android:text="欲使用掃碼租車，請新增[掃碼綁定卡]，並選擇支付工具"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="14sp"
