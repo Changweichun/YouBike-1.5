@@ -6,137 +6,157 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml
+8-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml
+9-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:5:5-72:19
-12        android:allowBackup="true"
-12-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\user\.gradle\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.YouBike" >
-20-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:11:9-45
-21        <activity
-21-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:12:9-20:20
-22            android:name="com.android.youbike.MainActivity"
-22-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:13:13-41
-23            android:exported="true" >
-23-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:16:17-69
-25-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:18:17-77
-27-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity
-30-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:22:9-25:20
-31            android:name="com.android.youbike.AccidentNotificationActivity"
-31-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:23:13-57
-32            android:exported="false" >
-32-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:24:13-37
-33        </activity>
-34        <activity
-34-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:27:9-30:20
-35            android:name="com.android.youbike.ServiceCenterActivity"
-35-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:28:13-50
-36            android:exported="false" >
-36-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:29:13-37
-37        </activity>
-38        <activity
-38-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:32:9-35:20
-39            android:name="com.android.youbike.LoginActivity"
-39-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:33:13-42
-40            android:exported="false" >
-40-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:34:13-37
-41        </activity>
-42        <activity
-42-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:37:9-40:20
-43            android:name="com.android.youbike.TermOfUseActivity"
-43-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:38:13-46
-44            android:exported="false" >
-44-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:39:13-37
-45        </activity>
-46        <activity
-46-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:42:9-45:20
-47            android:name="com.android.youbike.SignUpActivity"
-47-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:43:13-43
-48            android:exported="false" >
-48-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:44:13-37
-49        </activity>
-50        <activity
-50-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:47:9-50:20
-51            android:name="com.android.youbike.InstructionsActivity"
-51-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:48:13-49
-52            android:exported="false" >
-52-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:49:13-37
-53        </activity>
-54        <activity
-54-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:52:9-55:20
-55            android:name="com.android.youbike.EquipmentIntroductionActivity"
-55-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:53:13-58
-56            android:exported="false" >
-56-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:54:13-37
-57        </activity>
-58        <activity
-58-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:57:9-60:20
-59            android:name="com.android.youbike.LeaseModeActivity"
-59-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:58:13-46
-60            android:exported="false" >
-60-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:59:13-37
-61        </activity>
-62        <activity
-62-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:62:9-65:20
-63            android:name="com.android.youbike.SafeRideActivity"
-63-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:63:13-45
-64            android:exported="false" >
-64-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:64:13-37
-65        </activity>
-66        <activity
-66-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:67:9-70:20
-67            android:name="com.android.youbike.FareDescriptionActivity"
-67-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:68:13-52
-68            android:exported="false" >
-68-->C:\Users\user\Documents\GitHub\YouBike-1.5\app\src\main\AndroidManifest.xml:69:13-37
-69        </activity>
-70
-71        <provider
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-72            android:name="androidx.startup.InitializationProvider"
-72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
-73            android:authorities="com.android.youbike.androidx-startup"
-73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:5:5-66
+11-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+12-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:6:5-7:47
+12-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:6:22-70
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:8:5-78
+13-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:8:22-76
+14
+15    <application
+15-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:9:5-80:19
+16        android:allowBackup="true"
+16-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.7.0] C:\Users\a9536\.gradle\caches\transforms-3\b9e4376e452ce4f1a2bbb1fc4b534124\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.YouBike"
+24-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:15:9-45
+25        android:usesCleartextTraffic="true" >
+25-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:16:9-44
+26        <activity
+26-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:17:9-25:20
+27            android:name="com.android.youbike.MainActivity"
+27-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:18:13-41
+28            android:exported="true" >
+28-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:19:13-36
+29            <intent-filter>
+29-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:21:17-69
+30-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:23:17-77
+32-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <uses-library
+36-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:27:9-28:39
+37            android:name="org.apache.http.legacy"
+37-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:27:23-60
+38            android:required="false" />
+38-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:28:13-37
+39
+40        <activity
+40-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:30:9-33:20
+41            android:name="com.android.youbike.AccidentNotificationActivity"
+41-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:31:13-57
+42            android:exported="false" >
+42-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:32:13-37
+43        </activity>
+44        <activity
+44-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:35:9-38:20
+45            android:name="com.android.youbike.ServiceCenterActivity"
+45-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:36:13-50
+46            android:exported="false" >
+46-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:37:13-37
+47        </activity>
+48        <activity
+48-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:40:9-43:20
+49            android:name="com.android.youbike.LoginActivity"
+49-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:41:13-42
+50            android:exported="false" >
+50-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:42:13-37
+51        </activity>
+52        <activity
+52-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:45:9-48:20
+53            android:name="com.android.youbike.TermOfUseActivity"
+53-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:46:13-46
+54            android:exported="false" >
+54-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:47:13-37
+55        </activity>
+56        <activity
+56-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:50:9-53:20
+57            android:name="com.android.youbike.SignUpActivity"
+57-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:51:13-43
+58            android:exported="false" >
+58-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:52:13-37
+59        </activity>
+60        <activity
+60-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:55:9-58:20
+61            android:name="com.android.youbike.InstructionsActivity"
+61-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:56:13-49
+62            android:exported="false" >
+62-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:57:13-37
+63        </activity>
+64        <activity
+64-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:60:9-63:20
+65            android:name="com.android.youbike.EquipmentIntroductionActivity"
+65-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:61:13-58
+66            android:exported="false" >
+66-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:62:13-37
+67        </activity>
+68        <activity
+68-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:65:9-68:20
+69            android:name="com.android.youbike.LeaseModeActivity"
+69-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:66:13-46
+70            android:exported="false" >
+70-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:67:13-37
+71        </activity>
+72        <activity
+72-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:70:9-73:20
+73            android:name="com.android.youbike.SafeRideActivity"
+73-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:71:13-45
 74            android:exported="false" >
-74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
-75            <meta-data
-75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
-77                android:value="androidx.startup" />
-77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
-78            <meta-data
-78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-80                android:value="androidx.startup" />
-80-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\user\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-81        </provider>
-82    </application>
-83
-84</manifest>
+74-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:72:13-37
+75        </activity>
+76        <activity
+76-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:75:9-78:20
+77            android:name="com.android.youbike.FareDescriptionActivity"
+77-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:76:13-52
+78            android:exported="false" >
+78-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:77:13-37
+79        </activity>
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+83            android:authorities="com.android.youbike.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\2c96a293c0a835e94af1ddc4d74ff22d\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\bdba8a1b7f77d959878d5a52670cf96f\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>

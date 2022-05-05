@@ -2706,6 +2706,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id etPhone
+id etPw
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2885,6 +2887,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rsTV1
+id rsTV2
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth

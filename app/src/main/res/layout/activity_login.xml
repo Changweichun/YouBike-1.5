@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="#FFFFFF"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -12,8 +12,8 @@
         android:id="@+id/menu"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginTop="20dp"
         android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
         android:src="@mipmap/img_1"
         app:tint="@android:color/holo_orange_dark" />
 
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:padding="30dp">
+        android:padding="10dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -37,18 +37,31 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/etPhone"
             android:hint="@string/phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:minHeight="48dp"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:inputType="phone" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/rsTV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
-        android:padding="30dp">
+        android:padding="10dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -57,21 +70,35 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <EditText
+            android:id="@+id/etPw"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="@string/password"
+            android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:password="true" />
+
     </LinearLayout>
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:layout_marginTop="170dp"-->
-<!--        android:text="@string/forget_pass"-->
-<!--        android:textColor="@color/holo_orange_dark"-->
-<!--        android:textSize="23sp" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="170dp"-->
+    <!--        android:text="@string/forget_pass"-->
+    <!--        android:textColor="@color/holo_orange_dark"-->
+    <!--        android:textSize="23sp" />-->
+
+    <TextView
+        android:id="@+id/rsTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/login_button"
