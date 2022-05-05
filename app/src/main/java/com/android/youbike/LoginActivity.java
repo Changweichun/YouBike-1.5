@@ -51,26 +51,28 @@ public class LoginActivity extends MyBaseActivity{
             public void onClick(View view) {
                 rsTV1.setText("");
                 rsTV2.setText("");
-                if (etPhone.getText().toString().length() != 10) {
-                    rsTV1.setText("手機格式不正確");}
-                if (etPhone.getText().toString().length() == 0 || etPw.getText().toString().length() == 0) {
+
+                if (etPhone.getText().toString().length() == 0 || etPw.getText().toString().length() == 0 || etPhone.getText().toString().length() != 10) {
                     if(etPhone.getText().toString().length() == 0) rsTV1.setText("必填");
+                    else rsTV1.setText("手機格式不正確");
                     if(etPw.getText().toString().length() == 0) rsTV2.setText("必填");
+
                 }
                 else{
-                    String r = LOGINphp.DBstring(etPhone.getText().toString(), etPw.getText().toString(), cookieStr, url);
-                    if (!r.equals("帳號或密碼錯誤")) {
-                        if(r.substring(10,11).equals("0")){
-                            Intent intent = new Intent();
-                            intent.setClass(getApplicationContext(), MainActivity.class);
-                            Toast.makeText(getApplicationContext(), "登入成功!", Toast.LENGTH_SHORT).show();
-                            startActivity(intent);
-                            etPhone.setText("");
-                            etPw.setText("");} 
-                    } else {
-                        rsTV1.setText(r);
-                        rsTV2.setText(r);
-                    }
+                     String r = LOGINphp.DBstring(etPhone.getText().toString(), etPw.getText().toString(), cookieStr, url);
+                     if (!r.equals("帳號或密碼錯誤")) {
+                         if (r.substring(10, 11).equals("0")) {
+                             Intent intent = new Intent();
+                             intent.setClass(getApplicationContext(), MainActivity.class);
+                             Toast.makeText(getApplicationContext(), "登入成功!", Toast.LENGTH_SHORT).show();
+                             startActivity(intent);
+                             etPhone.setText("");
+                             etPw.setText("");
+                         }
+                     } else {
+                         rsTV1.setText(r);
+                         rsTV2.setText(r);
+                     }
                 }
             }
         });
