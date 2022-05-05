@@ -54,7 +54,7 @@ public class LoginActivity extends MyBaseActivity{
 
                 if (etPhone.getText().toString().length() == 0 || etPw.getText().toString().length() == 0 || etPhone.getText().toString().length() != 10) {
                     if(etPhone.getText().toString().length() == 0) rsTV1.setText("必填");
-                    else rsTV1.setText("手機格式不正確");
+                    else if(etPhone.getText().toString().length() != 10) rsTV1.setText("手機格式不正確");
                     if(etPw.getText().toString().length() == 0) rsTV2.setText("必填");
 
                 }
