@@ -31,6 +31,8 @@ id cl3
 id cl4
 id disagree
 id editText
+id etPhone
+id etPw
 id imageView
 id imageView2
 id imageView3
@@ -45,6 +47,8 @@ id iv4
 id login_button
 id menu
 id recycle_view
+id rsTV1
+id rsTV2
 id signup_button
 id tabLayout
 id textView

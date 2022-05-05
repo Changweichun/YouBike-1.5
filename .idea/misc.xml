@@ -18,6 +18,28 @@
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.22" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_safe_ride.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_service_center.xml" value="0.3333333333333333" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_accident_notification.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_new.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_new_two.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_equipment_introduction.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_fare_desc.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_find_bikes.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_instructions.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_lease_mode.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_lost_and_found.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_main.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_safe_ride.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_service_center.xml" value="0.25" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_termofuse.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_lease_mode_one.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_lease_mode_two.xml" value="0.2971014492753623" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.16145307769929365" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.16145307769929365" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_accident_notification.xml" value="0.1" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_equipment_introduction.xml" value="0.1" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_fare_desc.xml" value="0.1" />
