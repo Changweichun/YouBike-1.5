@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇區域"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="127dp"
+        android:layout_height="83dp"
+        android:background="#E6FBFF"
+        android:backgroundTint="#FAFAFA"
+        android:text="確定"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FAFAFA"
+        android:text="取消"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

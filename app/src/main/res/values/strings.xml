@@ -190,4 +190,6 @@ YouBike 是由微笑單車股份有限公司（以下簡稱「本公司」）經
 （五） 臺北市公共自行車租賃系統 YouBike 服務使用注意事項。（連結到
 http://taipei.youbike.com.tw/taipei/photos/docs/13c2add0eca14eba6b76c
 d59c79cd00e.pdf）</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_youbike">MapsActivity_Youbike</string>
 </resources>
