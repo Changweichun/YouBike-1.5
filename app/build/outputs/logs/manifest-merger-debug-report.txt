@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/mingzhen/.gradle/caches/transforms-3/f4644d49845b47ba06b9572c54ce16a0/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mingzhen/.gradle/caches/transforms-3/aa44eb9e8d37a3439d636831a2be5455/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mingzhen/.gradle/caches/transforms-3/914116008979e77bc79da871871e9f31/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
@@ -43,22 +43,22 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mingzhen/.gradle/c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mingzhen/.gradle/caches/transforms-3/23bc2eaa3d335b525ba2ecfef837b657/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/mingzhen/.gradle/caches/transforms-3/58d3fb1b78397bc15eea1568e0b97297/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mingzhen/.gradle/caches/transforms-3/75868ec7d8db0714374451122b3b1963/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
-INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
 	package
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-69:12
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:1-72:12
 		INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:2:11-69
@@ -77,7 +77,7 @@ ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:10:22-76
 application
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:12:5-67:19
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:12:5-70:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/mingzhen/.gradle/caches/transforms-3/f4644d49845b47ba06b9572c54ce16a0/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/mingzhen/.gradle/caches/transforms-3/f4644d49845b47ba06b9572c54ce16a0/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mingzhen/.gradle/caches/transforms-3/aa44eb9e8d37a3439d636831a2be5455/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -108,94 +108,100 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mingzhen/.gradle/cac
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:18:9-45
 	android:usesCleartextTraffic
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:19:9-44
-activity#com.android.youbike.paymentActivity
+activity#com.android.youbike.navigationActivity
 ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:21:13-44
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:21:13-47
+activity#com.android.youbike.paymentActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:24:13-44
 activity#com.android.youbike.MainActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:23:9-31:20
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:26:9-34:20
 	android:exported
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:25:13-36
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:32:27-74
 uses-library#org.apache.http.legacy
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:33:9-35:40
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:36:9-38:40
 	android:required
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:35:13-37
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:34:13-50
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:37:13-50
 activity#com.android.youbike.AccidentNotificationActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:37:9-39:49
-	android:exported
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:38:13-57
-activity#com.android.youbike.ServiceCenterActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:40:9-42:49
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:40:9-42:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:41:13-50
-activity#com.android.youbike.LoginActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:43:9-45:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:41:13-57
+activity#com.android.youbike.ServiceCenterActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:43:9-45:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:44:13-42
-activity#com.android.youbike.TermOfUseActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:46:9-48:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:44:13-50
+activity#com.android.youbike.LoginActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:46:9-48:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:47:13-46
-activity#com.android.youbike.SignUpActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:49:9-51:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:47:13-42
+activity#com.android.youbike.TermOfUseActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:49:9-51:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:50:13-43
-activity#com.android.youbike.InstructionsActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:52:9-54:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:50:13-46
+activity#com.android.youbike.SignUpActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:52:9-54:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:53:13-49
-activity#com.android.youbike.EquipmentIntroductionActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:55:9-57:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:53:13-43
+activity#com.android.youbike.InstructionsActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:55:9-57:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:56:13-58
-activity#com.android.youbike.LeaseModeActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:58:9-60:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:56:13-49
+activity#com.android.youbike.EquipmentIntroductionActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:58:9-60:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:59:13-46
-activity#com.android.youbike.SafeRideActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:61:9-63:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:59:13-58
+activity#com.android.youbike.LeaseModeActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:61:9-63:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:63:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:62:13-45
-activity#com.android.youbike.FareDescriptionActivity
-ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:64:9-66:49
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:62:13-46
+activity#com.android.youbike.SafeRideActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:64:9-66:40
 	android:exported
 		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:65:13-52
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:65:13-45
+activity#com.android.youbike.FareDescriptionActivity
+ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:67:9-69:40
+	android:exported
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml:68:13-52
 uses-sdk
 INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mingzhen/StudioProjects/Youbike_all/app/src/main/AndroidManifest.xml

@@ -18,6 +18,9 @@
         android:theme="@style/Theme.YouBike"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".navigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".paymentActivity"
             android:exported="false" />
         <activity
@@ -36,34 +39,34 @@
 
         <activity
             android:name=".AccidentNotificationActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".ServiceCenterActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".TermOfUseActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".InstructionsActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".EquipmentIntroductionActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".LeaseModeActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".SafeRideActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".FareDescriptionActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

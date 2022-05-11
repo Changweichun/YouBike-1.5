@@ -24,6 +24,9 @@
         android:theme="@style/Theme.YouBike"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.android.youbike.navigationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.android.youbike.paymentActivity"
             android:exported="false" />
         <activity
