@@ -24,6 +24,9 @@
         android:theme="@style/Theme.YouBike"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.android.youbike.paymentActivity"
+            android:exported="false" />
+        <activity
             android:name="com.android.youbike.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -39,44 +42,34 @@
 
         <activity
             android:name="com.android.youbike.AccidentNotificationActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.ServiceCenterActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.LoginActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.TermOfUseActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.SignUpActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.InstructionsActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.EquipmentIntroductionActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.LeaseModeActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.SafeRideActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.FareDescriptionActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

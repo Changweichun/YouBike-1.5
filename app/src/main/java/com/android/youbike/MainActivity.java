@@ -31,5 +31,13 @@ public class MainActivity extends MyBaseActivity {
                 startActivity(new Intent(getApplicationContext(),LoginActivity.class));
             }
         });
+
+        findViewById(R.id.bt4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),paymentActivity.class));
+            }
+        });
+
     }
 }
