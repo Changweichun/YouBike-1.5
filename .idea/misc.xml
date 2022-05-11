@@ -30,8 +30,6 @@
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_safe_ride.xml" value="0.25" />
         <entry key="..\:/YouBike/app/src/main/res/layout/activity_service_center.xml" value="0.1" />
-        <entry key="app/src/main/res/drawable-anydpi/birth.xml" value="0.2085" />
-        <entry key="app/src/main/res/drawable-anydpi/exit_icon.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/shape1.xml" value="0.1685" />
         <entry key="app/src/main/res/drawable/shape2.xml" value="0.1685" />
         <entry key="app/src/main/res/layout/activity_accident notification.xml" value="0.1" />
@@ -40,19 +38,14 @@
         <entry key="app/src/main/res/layout/activity_fare_desc.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_instructions.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_lease_mode.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.22541503906250002" />
-        <entry key="app/src/main/res/layout/activity_maps_youbike.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_safe_ride.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.23489583333333333" />
-        <entry key="app/src/main/res/layout/activity_termofuse.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_lease_mode_one.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_lease_mode_two.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/region_choose.xml" value="0.35197143554687504" />
       </map>
     </option>
   </component>
@@ -61,12 +54,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.22541503906250002" />
-      </ProjectState>
-    </option>
   </component>
 </project>
