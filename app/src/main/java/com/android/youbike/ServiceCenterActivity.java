@@ -17,5 +17,12 @@ public class ServiceCenterActivity extends MyBaseActivity {
                 startActivity(new Intent(getApplicationContext(),AccidentNotificationActivity.class));
             }
         });
+
+        findViewById(R.id.menu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),navigationActivity.class));
+            }
+        });
     }
 }
