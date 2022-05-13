@@ -68,6 +68,30 @@
             android:name=".FareDescriptionActivity"
             android:exported="false">
         </activity>
+        <activity
+            android:name=".AccidentNotificationRecordDetailActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".AccidentNotificationRecordActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".AccidentNotificationFixActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".AccidentNotificationFixDetailActivity"
+            android:exported="false">
+        </activity>
 
     </application>
 
