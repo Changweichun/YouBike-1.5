@@ -1,5 +1,6 @@
 package com.android.youbike;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,12 +17,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends MyBaseActivity{
+    private CookieString cookieString;
     Context context = this;
     EditText etPhone, etPw;
     TextView rsTV1, rsTV2;
     Button login_button;
     WebView webView;
-    String url = "http://team8.byethost6.com/login.php";
+    String url = "http://team8.byethost6.com/";
     CookieManager cookieManager;
     String cookieStr;
     @Override
@@ -61,7 +63,12 @@ public class LoginActivity extends MyBaseActivity{
                 else{
                      String r = LOGINphp.DBstring(etPhone.getText().toString(), etPw.getText().toString(), cookieStr, url);
                      if (!r.equals("帳號或密碼錯誤")) {
-                         if (r.substring(10, 11).equals("0")) {
+                         if (r.charAt(10) == '0') {
+                             Intent intent1=new Intent(LoginActivity.this, ServiceCenterActivity.class);
+                             Bundle bundle= new Bundle();
+                             bundle.putString("cookie", cookieStr);
+                             intent1.putExtras(bundle);
+                             startActivity(intent1);
                              Intent intent = new Intent();
                              intent.setClass(getApplicationContext(), MainActivity.class);
                              Toast.makeText(getApplicationContext(), "登入成功!", Toast.LENGTH_SHORT).show();
@@ -72,6 +79,7 @@ public class LoginActivity extends MyBaseActivity{
                      } else {
                          rsTV1.setText(r);
                          rsTV2.setText(r);
+
                      }
                 }
             }
@@ -79,6 +87,7 @@ public class LoginActivity extends MyBaseActivity{
 
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void Wcookie(Context context){
         webView = new WebView(context);
         CookieSyncManager.createInstance(context);
@@ -90,6 +99,8 @@ public class LoginActivity extends MyBaseActivity{
                 super.onPageFinished(view, url);
                 cookieManager.setAcceptCookie(true);
                 cookieStr=cookieManager.getCookie(url);
+                cookieString=(CookieString)getApplication();
+                cookieString.setCookieStr(cookieStr);
             }
         });
         webView.loadUrl(url);

@@ -1,12 +1,12 @@
-#Wed May 11 21:14:37 CST 2022
+#Sat May 14 17:13:23 CST 2022
 path.3=7/classes.dex
 path.2=13/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
-base.3=/Users/mingzhen/StudioProjects/Youbike_all/app/build/intermediates/dex/debug/mergeProjectDexDebug/7/classes.dex
-base.2=/Users/mingzhen/StudioProjects/Youbike_all/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-base.1=/Users/mingzhen/StudioProjects/Youbike_all/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.0=/Users/mingzhen/StudioProjects/Youbike_all/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.3=D\:\\YouBike-1.5\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.2=D\:\\YouBike-1.5\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.1=D\:\\YouBike-1.5\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.0=D\:\\YouBike-1.5\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
