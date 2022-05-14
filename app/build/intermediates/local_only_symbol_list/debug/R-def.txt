@@ -2,7 +2,9 @@ R_DEF: Internal format may change without notice
 local
 array one
 color black
+color gray
 color holo_orange_dark
+color lightBlue
 color purple_200
 color purple_500
 color purple_700
@@ -40,6 +42,12 @@ id disagree
 id editText
 id etPhone
 id etPw
+id et_bd
+id et_cpw
+id et_em
+id et_id
+id et_ph
+id et_pw
 id imageBikeTicket
 id imageCard
 id imageFindAndLost
@@ -117,6 +125,16 @@ id textView7
 id textView8
 id textView9
 id tv
+id tv_bdrs
+id tv_cpwrs
+id tv_idrs
+id tv_phrs
+id tv_pwrs
+id tv_serviceAddress
+id tv_serviceContent
+id tv_servicePay
+id tv_servicePhone
+id tv_serviceTitle
 id txtDetails
 id view
 id view10
@@ -133,6 +151,7 @@ id view8
 id view9
 id viewPager
 id viewPerson
+layout acticity_service_center_adapter
 layout activity_accident_notification
 layout activity_cards_manage
 layout activity_cards_new
@@ -150,6 +169,7 @@ layout activity_payment
 layout activity_ride_ticket_new
 layout activity_safe_ride
 layout activity_service_center
+layout activity_service_center_adapter1
 layout activity_signup
 layout activity_termofuse
 layout fragment_lease_mode_one
@@ -218,6 +238,7 @@ mipmap img_6
 mipmap img_7
 mipmap img_8
 mipmap img_9
+mipmap p1
 mipmap ride_ticket
 string agree
 string app_name
