@@ -1,40 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/region_choose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="請選擇區域"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="54dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/region_choose"
+        android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="127dp"
-        android:layout_height="83dp"
-        android:background="#E6FBFF"
-        android:backgroundTint="#FAFAFA"
-        android:text="確定"
-        android:textColor="#FF9800"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="394dp" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FAFAFA"
-        android:text="取消"
-        android:textColor="#FF9800"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="299dp" />
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_taipei"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_newtaipei"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_taoyuan"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="191dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_hsinchu"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_hsinchuscience"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_maioli"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/white"
+            android:gravity="start"
+            android:text="@string/region_taichung"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="469dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
