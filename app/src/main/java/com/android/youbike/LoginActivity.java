@@ -41,7 +41,10 @@ public class LoginActivity extends MyBaseActivity{
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());
         StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectLeakedClosableObjects().detectLeakedSqlLiteObjects().penaltyLog().build());
 
-        Wcookie(context);
+        cookieString = (CookieString)getApplication();
+        cookieStr = cookieString.getCookieStr();
+        if (cookieStr==null)
+            Wcookie(context);
 
         etPhone = (EditText)findViewById(R.id.etPhone);
         etPw = (EditText)findViewById(R.id.etPw);

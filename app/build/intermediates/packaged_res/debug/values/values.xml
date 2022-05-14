@@ -18,7 +18,10 @@
     <color name="white">#FFFFFFFF</color>
     <string name="agree">同意</string>
     <string name="app_name">YouBike</string>
+    <string name="app_text">請選擇區域</string>
     <string name="birth">生日</string>
+    <string name="button_mng_cancel">取消</string>
+    <string name="button_msg">確定</string>
     <string name="disagree">不同意</string>
     <string name="forget_pass">忘記密碼</string>
     <string name="login">登入</string>
@@ -26,6 +29,13 @@
     <string name="password">密碼</string>
     <string name="password_confirm">確認密碼</string>
     <string name="phone">手機號碼</string>
+    <string name="region_hsinchu">新竹市</string>
+    <string name="region_hsinchuscience">新竹科學園區</string>
+    <string name="region_miaoli">苗栗縣</string>
+    <string name="region_newtaipei">新北市</string>
+    <string name="region_taichung">臺中市</string>
+    <string name="region_taipei">臺北市</string>
+    <string name="region_taouain">桃園市</string>
     <string name="self_id">證件號</string>
     <string name="signup">註冊會員</string>
     <string name="signup_confirm">註冊</string>
@@ -206,7 +216,9 @@ YouBike 是由微笑單車股份有限公司（以下簡稱「本公司」）經
 http://taipei.youbike.com.tw/taipei/photos/docs/13c2add0eca14eba6b76c
 d59c79cd00e.pdf）</string>
     <string name="termofuse_title">會員條款</string>
-    <style name="Theme.YouBike" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_youbike">MapsActivity_Youbike</string>
+    <style name="Theme.YouBike" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

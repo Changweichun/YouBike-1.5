@@ -1,12 +1,24 @@
 package com.android.youbike;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 public class MainActivity extends MyBaseActivity {
-
+    private CookieString cookieString;
+    private Context context=this;
+    private WebView webView;
+    private String url = "http://team8.byethost6.com/";
+    private CookieManager cookieManager;
+    private String cookieStr;
+    private boolean flag=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +65,33 @@ public class MainActivity extends MyBaseActivity {
             }
         });
 
+        cookieString=(CookieString)getApplication();
+        flag = cookieString.isFlag();
+        if(!flag)
+            Wcookie(context);
+    }
+    @SuppressLint("SetJavaScriptEnabled")
+    private void Wcookie(Context context){
+        webView = new WebView(context);
+        CookieSyncManager.createInstance(context);
+        cookieManager=CookieManager.getInstance();
 
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient(){
+            public void onPageFinished(WebView view, String url){
+                super.onPageFinished(view, url);
+                cookieManager.setAcceptCookie(true);
+                cookieStr=cookieManager.getCookie(url);
+                cookieString.setCookieStr(cookieStr);
+                flag=true;
+                cookieString.setFlag(flag);
+            }
+        });
+        webView.loadUrl(url);
+        webView.clearCache(true);
+        webView.clearHistory();
+
+        cookieManager.removeAllCookie();
+        cookieManager.removeSessionCookie();
     }
 }

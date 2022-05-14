@@ -4,10 +4,11 @@ import android.app.Application;
 
 public class CookieString extends Application {
     private String cookieStr;
-
+    private boolean flag = false;
     public void OnCreate(){
         super.onCreate();
         setCookieStr(COOKIE);
+        setFlag(FLAG);
     }
 
     public String getCookieStr() {
@@ -18,5 +19,14 @@ public class CookieString extends Application {
         this.cookieStr = cookieStr;
     }
 
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
+    }
+
     private static final String COOKIE = "";
+    private static final boolean FLAG = false;
 }
