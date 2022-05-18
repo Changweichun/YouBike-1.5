@@ -13,6 +13,12 @@
     <string name="mail">電子信箱</string>
     <string name="signup_confirm">註冊</string>
     <string name="termofuse_title">會員條款</string>
+    <string name="card_manage">卡片管理</string>
+    <string name="card_type">卡片類型</string>
+    <string name="card_new">卡片新增</string>
+    <string name="easy_card">悠遊卡</string>
+    <string name="ipass">一卡通</string>
+    <string name="card_type_notice">欲使用掃碼租車，請新增[掃碼綁定卡]，並選擇支付工具</string>
 
     <string name="termofuse">臺北市公共自行車租賃系統 YouBike 會員定型化契約條款
 服務內容
