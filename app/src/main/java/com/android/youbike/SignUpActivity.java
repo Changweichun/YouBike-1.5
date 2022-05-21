@@ -136,6 +136,7 @@ public class SignUpActivity extends MyBaseActivity{
                         Date BDdate = sdf.parse(BD);
                         Date date = sdf.parse(timeStamp);
                         if (BDdate.compareTo(date) >= 0){
+                            flag = 1;
                             tvBD.setText("生日必須為今日之前");
                         }
                     } catch (ParseException e) {
