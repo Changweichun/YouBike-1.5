@@ -21,19 +21,19 @@
 13-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:10:22-76
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
 18
 19    <queries>
-19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
 20
 21        <!-- Needs to be explicitly declared on Android R+ -->
 22        <package android:name="com.google.android.apps.maps" />
-22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
-22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\e76f2ae7ea6830628bd905c680133d53\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\cfd72dd1b79acb16f46733063cf34300\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
 23    </queries>
 24
 25    <application
@@ -43,7 +43,7 @@
 27        android:allowBackup="true"
 27-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:13:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.7.0] C:\Users\a9536\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+28-->[androidx.core:core:1.7.0] C:\Users\a9536\.gradle\caches\transforms-3\872760feaaee10476689973b3bbaf6f8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
 30-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:14:9-43
@@ -191,41 +191,41 @@
 105-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:93:13-37
 106        </activity>
 107        <activity
-107-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\554e56b7ca3c23393183273258feb399\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+107-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\36e4514eae78dde3a4e3e18c9d0eed46\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
 108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-108-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\554e56b7ca3c23393183273258feb399\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+108-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\36e4514eae78dde3a4e3e18c9d0eed46\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 109            android:exported="false"
-109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\554e56b7ca3c23393183273258feb399\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+109-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\36e4514eae78dde3a4e3e18c9d0eed46\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
 110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-110-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\554e56b7ca3c23393183273258feb399\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+110-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\a9536\.gradle\caches\transforms-3\36e4514eae78dde3a4e3e18c9d0eed46\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 111
 112        <meta-data
-112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\f4edb30f12a4233ffb8ce3032d6469ff\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+112-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\82220aac63eb01b8f7933c3bbdee028e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
 113            android:name="com.google.android.gms.version"
-113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\f4edb30f12a4233ffb8ce3032d6469ff\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+113-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\82220aac63eb01b8f7933c3bbdee028e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
 114            android:value="@integer/google_play_services_version" />
-114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\f4edb30f12a4233ffb8ce3032d6469ff\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\a9536\.gradle\caches\transforms-3\82220aac63eb01b8f7933c3bbdee028e\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
 115
 116        <provider
-116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 117            android:name="androidx.startup.InitializationProvider"
-117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 118            android:authorities="com.android.youbike.androidx-startup"
-118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+118-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 119            android:exported="false" >
-119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 120            <meta-data
-120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 122                android:value="androidx.startup" />
-122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\a9536\.gradle\caches\transforms-3\845768665375e6cd3c5eab402554b075\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 123            <meta-data
-123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\5de73b8cc3d81b7c293b0c44a3c073e5\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+124-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\5de73b8cc3d81b7c293b0c44a3c073e5\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 125                android:value="androidx.startup" />
-125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+125-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\a9536\.gradle\caches\transforms-3\5de73b8cc3d81b7c293b0c44a3c073e5\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 126        </provider>
 127    </application>
 128
