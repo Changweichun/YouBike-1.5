@@ -200,4 +200,5 @@ d59c79cd00e.pdf）</string>
     <string name="region_maioli">苗栗縣</string>
     <string name="region_taichung">臺中市</string>
     <string name="region_choose">請選擇地區</string>
+    <string name="scan_toride">掃碼借車</string>
 </resources>
