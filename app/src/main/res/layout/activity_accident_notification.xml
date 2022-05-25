@@ -45,7 +45,9 @@
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:paddingTop="10dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -54,17 +56,29 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <EditText
+            android:id="@+id/an_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="所在地點"
+            android:hint="意外發生地點"
             android:paddingHorizontal="12dp" />
     </LinearLayout>
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
 
     <LinearLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -73,17 +87,29 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <EditText
+            android:id="@+id/an_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="姓名"
             android:paddingHorizontal="12dp" />
     </LinearLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
 
     <LinearLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -92,17 +118,91 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <EditText
+            android:id="@+id/an_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="手機號码"
             android:paddingHorizontal="12dp" />
     </LinearLayout>
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
 
     <LinearLayout
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp">
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_date_range_24"
+            app:tint="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/an_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="意外發生日期"
+            android:paddingHorizontal="12dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_credit_card_24"
+            app:tint="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/an_cardNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="卡片號碼"
+            android:paddingHorizontal="12dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_cardNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
 
         <ImageView
             android:layout_width="40dp"
@@ -111,29 +211,68 @@
             app:tint="@android:color/holo_orange_dark" />
 
         <Spinner
+            android:id="@+id/an_category"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:entries="@array/one" />
     </LinearLayout>
 
 
+
     <View
-        android:background="@color/black"
-        android:layout_marginStart="52dp"
         android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        android:layout_height="1dp"
+        android:layout_marginStart="52dp"
+        android:background="@color/black" />
 
     <LinearLayout
         android:background="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="40dp"/>
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_comment_24"
+            app:tint="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/an_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="備註"
+            android:paddingHorizontal="12dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textSize="16sp"
+        android:paddingRight="15dp"
+        android:textAlignment="textEnd"
+        android:textColor="#FF0000">
+    </TextView>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
 
     <Button
+        android:id="@+id/an_btn"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="22dp"
         android:layout_gravity="end"
         android:text="送出"
+        android:textSize="16sp"
+        android:textColor="@color/white"
         android:layout_width="140dp"
-        android:layout_height="70dp"/>
+        android:layout_height="70dp"
+        android:backgroundTint="@color/holo_orange_dark"/>
 
 </LinearLayout>

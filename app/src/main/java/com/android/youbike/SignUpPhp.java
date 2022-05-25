@@ -18,7 +18,7 @@ public class SignUpPhp {
         String result="錯誤";
         try{
             HC=new DefaultHttpClient();
-            HP=new HttpPost(url+"/signup.php");
+            HP=new HttpPost(url+"signup.php");
             System.out.println("是否取得cookie="+Wcook);
             if (Wcook != null){
                 HP.addHeader("Cookie", Wcook+";expires=Fri, 01-Jan-38 07:55:55 GMT; path=/");

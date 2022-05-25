@@ -242,6 +242,7 @@
         android:layout_marginBottom="0dp"
         android:backgroundTint="@color/holo_orange_dark"
         android:text="@string/signup_confirm"
+        android:textColor="@color/white"
         android:textSize="23dp" />
 
 
