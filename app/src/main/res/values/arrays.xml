@@ -4,4 +4,14 @@
         <item>行車意外</item>
         <item>其他</item>
     </array>
+
+    <string-array name="location_array">
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>台中市</item>
+        <item>高雄市</item>
+        <item>嘉義市</item>
+
+    </string-array>
+
 </resources>

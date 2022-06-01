@@ -202,4 +202,8 @@ d59c79cd00e.pdf）</string>
     <string name="region_miaoli">苗栗縣</string>
     <string name="region_taichung">臺中市</string>
     <string name="button_mng_cancel">取消</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

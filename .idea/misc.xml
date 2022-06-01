@@ -3,6 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/ic_baseline_comment_24.xml" value="0.2265" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape1.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape2.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape3.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape4.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/drawable/shape5.xml" value="0.238" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_bike_reportsys.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_record_info.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_record_list.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_safe_ride.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_service_center.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_bike_report.xml" value="0.264" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_other_report.xml" value="0.176" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_poll_report.xml" value="0.264" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.19850808122668878" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/orgainze.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/region.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/region_choose.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/res_amount_item.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/scan_bike.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/stobroad_search.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_accident_notification.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_cards_new.xml" value="0.3333333333333333" />

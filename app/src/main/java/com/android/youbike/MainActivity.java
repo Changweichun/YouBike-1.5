@@ -65,6 +65,13 @@ public class MainActivity extends MyBaseActivity {
             }
         });
 
+        findViewById(R.id.bt7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),BikeReportSysActivity.class));
+            }
+        });
+
         cookieString=(CookieString)getApplication();
         flag = cookieString.isFlag();
         if(!flag)

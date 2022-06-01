@@ -17,7 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YouBike"
         android:name=".CookieString"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        >
         <activity
             android:name=".navigationActivity"
             android:exported="false" />
@@ -92,6 +93,13 @@
             android:name=".AccidentNotificationFixDetailActivity"
             android:exported="false">
         </activity>
+
+        <activity
+            android:name=".BikeReportSysActivity"
+            android:exported="false">
+            android:windowSoftInputMode="stateAlwaysHidden"
+        </activity>
+
     </application>
 
 </manifest>
