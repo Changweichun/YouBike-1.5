@@ -33,6 +33,7 @@
     <string name="region_taichung">臺中市</string>
     <string name="region_taipei">臺北市</string>
     <string name="region_taoyuan">桃園市</string>
+    <string name="scan_toride">掃碼借車</string>
     <string name="self_id">證件號</string>
     <string name="signup">註冊會員</string>
     <string name="signup_confirm">註冊</string>
@@ -216,16 +217,16 @@ d59c79cd00e.pdf）</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_maps_youbike">MapsActivity_Youbike</string>
     <style name="Theme.YouBike" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        
     </style>
 </resources>

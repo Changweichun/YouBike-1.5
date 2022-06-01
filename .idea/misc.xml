@@ -46,7 +46,7 @@
         <entry key="app/src/main/res/layout/activity_lease_mode.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.31618652343750003" />
         <entry key="app/src/main/res/layout/activity_maps_youbike.xml" value="0.24768829345703128" />
         <entry key="app/src/main/res/layout/activity_safe_ride.xml" value="0.23489583333333333" />
         <entry key="app/src/main/res/layout/activity_service_center.xml" value="0.23489583333333333" />
@@ -58,6 +58,7 @@
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
         <entry key="app/src/main/res/layout/orgainze.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/public_damage_insurance.xml" value="0.2675109863281251" />
         <entry key="app/src/main/res/layout/region.xml" value="0.1453125" />
         <entry key="app/src/main/res/layout/region_choose.xml" value="0.1" />
         <entry key="app/src/main/res/layout/scan_bike.xml" value="0.3098958333333333" />
