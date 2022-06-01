@@ -72,6 +72,8 @@ public class MainActivity extends MyBaseActivity {
             }
         });
 
+
+
         cookieString=(CookieString)getApplication();
         flag = cookieString.isFlag();
         if(!flag)
