@@ -54,6 +54,7 @@
         <entry key="app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/region.xml" value="0.15572916666666667" />
         <entry key="app/src/main/res/layout/region_choose.xml" value="0.35197143554687504" />
       </map>
     </option>
