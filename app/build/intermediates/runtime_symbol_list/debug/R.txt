@@ -3226,6 +3226,7 @@ int id tv6 0x7f09026f
 int id tv7 0x7f090270
 int id tv_add 0x7f090271
 int id tv_bdrs 0x7f090272
+int id tv_blrs 0x7f0902b1
 int id tv_bnrs 0x7f090273
 int id tv_cardNum 0x7f090274
 int id tv_chrs 0x7f090275
@@ -3240,6 +3241,7 @@ int id tv_phrs 0x7f09027d
 int id tv_pollrs 0x7f09027e
 int id tv_prompt 0x7f09027f
 int id tv_pwrs 0x7f090280
+int id tv_sdrs 0x7f0902b0
 int id tv_serviceAddress 0x7f090281
 int id tv_serviceContent 0x7f090282
 int id tv_servicePay 0x7f090283

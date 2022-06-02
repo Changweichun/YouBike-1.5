@@ -184,6 +184,7 @@ id tv6
 id tv7
 id tv_add
 id tv_bdrs
+id tv_blrs
 id tv_bnrs
 id tv_cardNum
 id tv_chrs
@@ -197,6 +198,7 @@ id tv_phone
 id tv_phrs
 id tv_pollrs
 id tv_pwrs
+id tv_sdrs
 id tv_serviceAddress
 id tv_serviceContent
 id tv_servicePay
