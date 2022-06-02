@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
     tools:context=".navigationActivity">
 
     <com.google.android.material.navigation.NavigationView
@@ -20,309 +22,328 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/navPersonal"
+
+            <include layout="@layout/main_toolbar" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="135dp">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Home"
+                android:textSize="50sp"
+                android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/viewPerson"
-                    android:layout_width="58dp"
-                    android:layout_height="61dp"
-                    android:layout_weight="1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.082"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.783"
-                    app:srcCompat="@mipmap/img_3" />
+            <include layout="@layout/main_nav_drawer" />
 
-                <TextView
-                    android:id="@+id/UserId"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="73dp"
-                    android:text="*****56789"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.158"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.586" />
+            <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/navPersonal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="135dp">-->
 
-                <TextView
-                    android:id="@+id/textLocation"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="台北市"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.432"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.862" />
+<!--                <ImageView-->
+<!--                    android:id="@+id/viewPerson"-->
+<!--                    android:layout_width="58dp"-->
+<!--                    android:layout_height="61dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.082"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.783"-->
+<!--                    app:srcCompat="@mipmap/img_3" />-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <TextView-->
+<!--                    android:id="@+id/UserId"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="73dp"-->
+<!--                    android:text="*****56789"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.158"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.586" />-->
 
-            <View
-                android:id="@+id/view11"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#E7E7E7" />
+<!--                <TextView-->
+<!--                    android:id="@+id/textLocation"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="台北市"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.432"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.862" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.072"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.571"
-                    app:srcCompat="@android:drawable/ic_menu_mapmode" />
+<!--            <View-->
+<!--                android:id="@+id/view11"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="#E7E7E7" />-->
 
-                <TextView
-                    android:id="@+id/textMap"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="站點地圖"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.38"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_service_center"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView7"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.072"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.571"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_mapmode" />-->
 
-                <ImageView
-                    android:id="@+id/imageQuestion"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@android:drawable/ic_menu_mapmode"
-                    tools:srcCompat="@android:drawable/ic_menu_help" />
+<!--                <TextView-->
+<!--                    android:id="@+id/textMap"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="站點地圖"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.38"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textServiceCenter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="服務中心"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.38"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_service_center"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageQuestion"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_mapmode"-->
+<!--                    tools:srcCompat="@android:drawable/ic_menu_help" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_instruction"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--                <TextView-->
+<!--                    android:id="@+id/textServiceCenter"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="服務中心"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.38"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
 
-                <ImageView
-                    android:id="@+id/imageTips"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@android:drawable/ic_menu_mapmode"
-                    tools:src="@drawable/birth"
-                    tools:srcCompat="@android:drawable/ic_menu_info_details" />
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textInstructions"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="使用說明"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.38"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_instruction"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageTips"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:srcCompat="@android:drawable/ic_menu_mapmode"-->
+<!--                    tools:src="@drawable/birth"-->
+<!--                    tools:srcCompat="@android:drawable/ic_menu_info_details" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_lost_and_found"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--                <TextView-->
+<!--                    android:id="@+id/textInstructions"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="使用說明"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.38"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
 
-                <ImageView
-                    android:id="@+id/imageFindAndLost"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@drawable/bag" />
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textFindAndLost"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="失物招領"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.38"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_lost_and_found"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageFindAndLost"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:srcCompat="@drawable/bag" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_find_bikes"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--                <TextView-->
+<!--                    android:id="@+id/textFindAndLost"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="失物招領"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.38"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
 
-                <ImageView
-                    android:id="@+id/imageSearch"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@android:drawable/ic_menu_search" />
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textSearch"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Youbike協尋"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.425"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_find_bikes"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageSearch"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:srcCompat="@android:drawable/ic_menu_search" />-->
 
-            <View
-                android:id="@+id/view13"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#E7E7E7" />
+<!--                <TextView-->
+<!--                    android:id="@+id/textSearch"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Youbike協尋"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.425"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_cards_manage"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <ImageView
-                    android:id="@+id/imageCard"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@drawable/card" />
+<!--            <View-->
+<!--                android:id="@+id/view13"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="#E7E7E7" />-->
 
-                <TextView
-                    android:id="@+id/textCard"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="卡片管理"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.387"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.39" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_cards_manage"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageCard"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:srcCompat="@drawable/card" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_bike_ticket"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--                <TextView-->
+<!--                    android:id="@+id/textCard"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="卡片管理"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.387"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.39" />-->
 
-                <ImageView
-                    android:id="@+id/imageBikeTicket"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textBikeTicket"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="騎乘券管理"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.412"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.39" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_bike_ticket"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageBikeTicket"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:srcCompat="@android:drawable/ic_menu_sort_by_size" />-->
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/nav_payment"
-                android:layout_width="match_parent"
-                android:layout_height="60dp">
+<!--                <TextView-->
+<!--                    android:id="@+id/textBikeTicket"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="騎乘券管理"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.412"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.39" />-->
 
-                <ImageView
-                    android:id="@+id/imagePayment"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.075"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:srcCompat="@android:drawable/ic_menu_edit" />
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
-                <TextView
-                    android:id="@+id/textPayment"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="補繳款項"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.38"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.512" />
+<!--            <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                android:id="@+id/nav_payment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="60dp">-->
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/imagePayment"-->
+<!--                    android:layout_width="40dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.075"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    tools:srcCompat="@android:drawable/ic_menu_edit" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textPayment"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="補繳款項"-->
+<!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintHorizontal_bias="0.38"-->
+<!--                    app:layout_constraintStart_toStartOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="parent"-->
+<!--                    app:layout_constraintVertical_bias="0.512" />-->
+
+<!--            </androidx.constraintlayout.widget.ConstraintLayout>-->
 
 
         </LinearLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@android:color/white" />
+
     </com.google.android.material.navigation.NavigationView>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
