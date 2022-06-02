@@ -85,13 +85,8 @@ id et_em
 id et_id
 id et_ph
 id et_pw
-id flow
 id front_light
 id front_wheel
-id guideline2
-id guideline3
-id guideline4
-id guideline5
 id imageBikeTicket
 id imageCard
 id imageFindAndLost
@@ -116,7 +111,6 @@ id iv1
 id iv2
 id iv3
 id iv4
-id layer
 id locationspinner
 id lockbroke
 id login_button
@@ -265,7 +259,6 @@ layout fragment_safe_ride_one
 layout fragment_safe_ride_three
 layout fragment_safe_ride_two
 layout orgainze
-layout region
 layout region_choose
 layout res_amount_item
 layout res_fix_item

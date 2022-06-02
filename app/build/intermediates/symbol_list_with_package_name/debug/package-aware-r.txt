@@ -2850,7 +2850,6 @@ id fitToContents
 id fixed
 id flip
 id floating
-id flow
 id forever
 id fragment_container_view_tag
 id front_light
@@ -2865,10 +2864,6 @@ id group_divider
 id grouping
 id groups
 id guideline
-id guideline2
-id guideline3
-id guideline4
-id guideline5
 id header_title
 id hideable
 id home
@@ -2921,7 +2916,6 @@ id iv4
 id jumpToEnd
 id jumpToStart
 id labeled
-id layer
 id layout
 id left
 id leftToRight
@@ -3487,7 +3481,6 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout orgainze
-layout region
 layout region_choose
 layout res_amount_item
 layout res_fix_item
