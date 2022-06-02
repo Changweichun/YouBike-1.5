@@ -32,9 +32,9 @@
                 android:text="Home"
                 android:textSize="50sp"
                 android:textStyle="bold" />
-
+<!--
             <include layout="@layout/main_nav_drawer" />
-
+-->
             <!--            <androidx.constraintlayout.widget.ConstraintLayout-->
 <!--                android:id="@+id/navPersonal"-->
 <!--                android:layout_width="match_parent"-->

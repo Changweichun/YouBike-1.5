@@ -34,7 +34,6 @@ drawable shape3
 drawable shape4
 drawable shape5
 id LOCATIONPILLAR
-id UserId
 id agree
 id an_address
 id an_btn
@@ -76,6 +75,7 @@ id cl3
 id cl4
 id cushion
 id disagree
+id drawer_layout
 id editText
 id etPhone
 id etPw
@@ -87,13 +87,6 @@ id et_ph
 id et_pw
 id front_light
 id front_wheel
-id imageBikeTicket
-id imageCard
-id imageFindAndLost
-id imagePayment
-id imageQuestion
-id imageSearch
-id imageTips
 id imageView
 id imageView13
 id imageView14
@@ -104,7 +97,6 @@ id imageView3
 id imageView4
 id imageView5
 id imageView6
-id imageView7
 id imageView8
 id imageView9
 id iv1
@@ -116,14 +108,6 @@ id lockbroke
 id login_button
 id map
 id menu
-id navPersonal
-id nav_bike_ticket
-id nav_cards_manage
-id nav_find_bikes
-id nav_instruction
-id nav_lost_and_found
-id nav_payment
-id nav_service_center
 id others
 id poll
 id poll_uppercap
@@ -136,15 +120,6 @@ id send
 id shaking
 id signup_button
 id tabLayout
-id textBikeTicket
-id textCard
-id textFindAndLost
-id textInstructions
-id textLocation
-id textMap
-id textPayment
-id textSearch
-id textServiceCenter
 id textView
 id textView10
 id textView11
@@ -209,9 +184,7 @@ id txtDetails
 id vehicle
 id view
 id view10
-id view11
 id view12
-id view13
 id view2
 id view3
 id view4
@@ -221,7 +194,6 @@ id view7
 id view8
 id view9
 id viewPager
-id viewPerson
 id wheelchain
 layout acticity_service_center_adapter
 layout activity_accident_notification
@@ -260,6 +232,7 @@ layout fragment_poll_report
 layout fragment_safe_ride_one
 layout fragment_safe_ride_three
 layout fragment_safe_ride_two
+layout main_toolbar
 layout orgainze
 layout region_choose
 layout res_amount_item
