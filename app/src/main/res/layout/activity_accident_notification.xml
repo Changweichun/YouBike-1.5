@@ -122,7 +122,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="手機號码"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:inputType="number"/>
     </LinearLayout>
     <TextView
         android:id="@+id/tv_phone"
@@ -184,7 +185,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="卡片號碼"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:inputType="number"/>
     </LinearLayout>
     <TextView
         android:id="@+id/tv_cardNum"

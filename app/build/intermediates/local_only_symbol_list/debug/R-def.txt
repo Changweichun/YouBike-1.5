@@ -3,6 +3,7 @@ local
 array location_array
 array one
 color black
+color dark_gray
 color gray
 color holo_orange_dark
 color lightBlue
@@ -66,6 +67,7 @@ id button6
 id button7
 id button8
 id button9
+id cancel_btn
 id cantpark
 id cantrent
 id cantreturn
@@ -73,10 +75,13 @@ id cl1
 id cl2
 id cl3
 id cl4
+id content
 id cushion
 id disagree
 id drawer_layout
 id editText
+id error_msg
+id error_title
 id etPhone
 id etPw
 id et_bd
@@ -85,6 +90,7 @@ id et_em
 id et_id
 id et_ph
 id et_pw
+id finish_btn
 id front_light
 id front_wheel
 id imageView
@@ -109,6 +115,7 @@ id login_button
 id map
 id menu
 id others
+id phone
 id poll
 id poll_uppercap
 id recycle_view
@@ -116,10 +123,13 @@ id repairnotes
 id root
 id rsTV1
 id rsTV2
+id scv
 id send
 id shaking
 id signup_button
 id tabLayout
+id term_bottom
+id term_title
 id textView
 id textView10
 id textView11
@@ -157,6 +167,8 @@ id tv4
 id tv5
 id tv6
 id tv7
+id tv8
+id tv9
 id tv_add
 id tv_bdrs
 id tv_blrs
@@ -224,6 +236,7 @@ layout activity_service_center
 layout activity_service_center_adapter1
 layout activity_signup
 layout activity_termofuse
+layout error_dialog
 layout fragment_bike_report
 layout fragment_lease_mode_one
 layout fragment_lease_mode_two
@@ -246,6 +259,7 @@ mipmap baseline_help_outline_black_18
 mipmap card_1
 mipmap card_2
 mipmap card_3
+mipmap error
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap img
@@ -310,9 +324,15 @@ string app_text
 string birth
 string button_mng_cancel
 string button_msg
+string card_manage
+string card_new
+string card_type
+string card_type_notice
 string disagree
+string easy_card
 string forget_pass
 string hello_blank_fragment
+string ipass
 string login
 string mail
 string password
@@ -333,3 +353,4 @@ string termofuse_title
 string title_activity_maps
 string title_activity_maps_youbike
 style Theme.YouBike
+style colored_checkBox

@@ -172,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="前輪"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="125dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="後輪" />
         </LinearLayout>
 
@@ -206,7 +206,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="前燈"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -220,7 +220,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="125dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="後燈" />
         </LinearLayout>
 
@@ -240,7 +240,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="鈴鐺"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -254,7 +254,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="125dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="煞車" />
         </LinearLayout>
 
@@ -274,7 +274,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="坐墊"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -288,7 +288,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="111dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="變速器" />
         </LinearLayout>
 
@@ -308,7 +308,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="置物籃"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -322,7 +322,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="125dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="鍊條" />
         </LinearLayout>
 
@@ -342,7 +342,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="車機"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -356,7 +356,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="125dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="其他" />
         </LinearLayout>
 

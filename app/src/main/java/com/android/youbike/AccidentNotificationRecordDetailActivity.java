@@ -25,11 +25,14 @@ public class AccidentNotificationRecordDetailActivity extends MyBaseActivity {
         setContentView(R.layout.activity_record_info);
 
         RecordBean recordBean = (RecordBean) getIntent().getSerializableExtra("data");
-        ((TextView)findViewById(R.id.tv1)).setText(recordBean.getTitle());
-        ((TextView)findViewById(R.id.tv2)).setText("通報種類："+recordBean.getType());
-        ((TextView)findViewById(R.id.tv3)).setText("通報內容："+recordBean.getContent());
-        ((TextView)findViewById(R.id.tv4)).setText("通報時間："+recordBean.getTime());
-        ((TextView)findViewById(R.id.tv5)).setText("通報地點："+recordBean.getAddress());
-        ((TextView)findViewById(R.id.tv6)).setText("連絡電話："+recordBean.getTime());
+        ((TextView)findViewById(R.id.tv1)).setText("通報案號： "+recordBean.getTitle());
+        ((TextView)findViewById(R.id.tv2)).setText("通報種類： "+recordBean.getType());
+        ((TextView)findViewById(R.id.tv3)).setText("通報內容： "+recordBean.getContent());
+        ((TextView)findViewById(R.id.tv4)).setText("發生日期： "+recordBean.getDate());
+        ((TextView)findViewById(R.id.tv5)).setText("通報時間： "+recordBean.getTime());
+        ((TextView)findViewById(R.id.tv6)).setText("通報地點： "+recordBean.getAddress());
+        ((TextView)findViewById(R.id.tv7)).setText("連絡電話：");
+        ((TextView)findViewById(R.id.tv8)).setText("卡片代碼： "+recordBean.getCard());
+        ((TextView)findViewById(R.id.phone)).setText(recordBean.getPhone());
     }
 }

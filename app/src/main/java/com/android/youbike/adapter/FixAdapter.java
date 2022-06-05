@@ -17,9 +17,9 @@ public class FixAdapter extends BaseQuickAdapter<FixBean, BaseViewHolder> {
 
     @Override
     protected void convert(BaseViewHolder helper, FixBean item) {
-        helper.setText(R.id.tv1,item.getTitle())
-                .setText(R.id.tv2,"类型："+item.getType())
-                .setText(R.id.tv3,"所在地区："+item.getArea())
-                .setText(R.id.tv4,"维修项目："+item.getProject());
+        helper.setText(R.id.tv1, "通報案號： "+item.getTitle())
+                .setText(R.id.tv2,"通報類型："+item.getType())
+                .setText(R.id.tv3,"所在地區："+item.getArea())
+                .setText(R.id.tv4,"维修項目："+item.getProject());
     }
 }

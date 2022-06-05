@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class FixBean implements Serializable {
     private String title;
+    private String time;
     private String type;
     private String area;
     private String number;
@@ -11,8 +12,9 @@ public class FixBean implements Serializable {
     private String project;
     private String remark;
 
-    public FixBean(String title, String type, String area, String number, String number2, String project, String remark) {
+    public FixBean(String title, String time, String type, String area, String number, String number2, String project, String remark) {
         this.title = title;
+        this.time = time;
         this.type = type;
         this.area = area;
         this.number = number;
@@ -27,6 +29,14 @@ public class FixBean implements Serializable {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String title) {
+        this.title = time;
     }
 
     public String getType() {

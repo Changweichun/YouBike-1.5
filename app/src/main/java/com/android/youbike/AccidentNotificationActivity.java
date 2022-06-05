@@ -19,8 +19,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -28,7 +26,7 @@ import java.util.Date;
 
 public class AccidentNotificationActivity extends MyBaseActivity {
     String url = "http://team8.byethost6.com/";
-    CookieString cookieString;
+    Values values;
     CookieManager cookieManager;
     public String cookieStr;
     WebView webView;
@@ -56,8 +54,8 @@ public class AccidentNotificationActivity extends MyBaseActivity {
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());
         StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectLeakedClosableObjects().detectLeakedSqlLiteObjects().penaltyLog().build());
 
-        cookieString = (CookieString)getApplication();
-        cookieStr = cookieString.getCookieStr();
+        values = (Values)getApplication();
+        cookieStr = values.getCookieStr();
 
         if (cookieStr == null)
             Wcookie(context);
@@ -178,8 +176,8 @@ public class AccidentNotificationActivity extends MyBaseActivity {
                 super.onPageFinished(view, url);
                 cookieManager.setAcceptCookie(true);
                 cookieStr=cookieManager.getCookie(url);
-                cookieString=(CookieString)getApplication();
-                cookieString.setCookieStr(cookieStr);
+                values =(Values)getApplication();
+                values.setCookieStr(cookieStr);
             }
         });
         webView.loadUrl(url);
