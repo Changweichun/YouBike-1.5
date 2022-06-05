@@ -166,8 +166,8 @@ public class AccidentNotificationRecordActivity extends MyBaseActivity {
                             jsonData.getString("detail"),
                             jsonData.getString("date"),
                             jsonData.getString("notification_time"),
-                            jsonData.getString("name"),
                             jsonData.getString("address"),
+                            jsonData.getString("name"),
                             jsonData.getString("phone"),
                             jsonData.getString("card_num")));
                 }
