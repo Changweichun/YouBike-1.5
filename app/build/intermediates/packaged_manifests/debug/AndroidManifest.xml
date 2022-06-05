@@ -23,7 +23,7 @@
     </queries>
 
     <application
-        android:name="com.android.youbike.CookieString"
+        android:name="com.android.youbike.Values"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"

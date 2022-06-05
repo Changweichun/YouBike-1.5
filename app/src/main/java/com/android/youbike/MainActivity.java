@@ -9,16 +9,14 @@ import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 public class MainActivity extends MyBaseActivity {
-    private CookieString cookieString;
+    private Values values;
     private Context context=this;
     private WebView webView;
     private String url = "http://team8.byethost6.com/";
     private CookieManager cookieManager;
     private String cookieStr;
-    private boolean flag=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,9 +72,9 @@ public class MainActivity extends MyBaseActivity {
 
 
 
-        cookieString=(CookieString)getApplication();
-        flag = cookieString.isFlag();
-        if(!flag)
+        values =(Values)getApplication();
+        cookieStr = values.getCookieStr();
+        if(cookieStr==null)
             Wcookie(context);
     }
     @SuppressLint("SetJavaScriptEnabled")
@@ -91,9 +89,7 @@ public class MainActivity extends MyBaseActivity {
                 super.onPageFinished(view, url);
                 cookieManager.setAcceptCookie(true);
                 cookieStr=cookieManager.getCookie(url);
-                cookieString.setCookieStr(cookieStr);
-                flag=true;
-                cookieString.setFlag(flag);
+                values.setCookieStr(cookieStr);
             }
         });
         webView.loadUrl(url);

@@ -1269,6 +1269,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color dark_gray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2740,6 +2741,7 @@ id button9
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel_btn
 id cancel_button
 id cantpark
 id cantrent
@@ -2830,6 +2832,8 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id error_msg
+id error_title
 id etPhone
 id etPw
 id et_bd
@@ -2846,6 +2850,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id finish_btn
 id fitToContents
 id fixed
 id flip
@@ -3023,6 +3028,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id pin
 id poll
 id poll_uppercap
@@ -3056,6 +3062,7 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id scv
 id search_badge
 id search_bar
 id search_button
@@ -3125,6 +3132,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id term_bottom
+id term_title
 id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -3200,6 +3209,8 @@ id tv4
 id tv5
 id tv6
 id tv7
+id tv8
+id tv9
 id tv_add
 id tv_bdrs
 id tv_blrs
@@ -3394,6 +3405,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout error_dialog
 layout fragment_bike_report
 layout fragment_lease_mode_one
 layout fragment_lease_mode_two
@@ -3489,6 +3501,7 @@ mipmap baseline_help_outline_black_18
 mipmap card_1
 mipmap card_2
 mipmap card_3
+mipmap error
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap img
@@ -3589,6 +3602,10 @@ string brvah_load_failed
 string brvah_loading
 string button_mng_cancel
 string button_msg
+string card_manage
+string card_new
+string card_type
+string card_type_notice
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3613,6 +3630,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string disagree
+string easy_card
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3621,6 +3639,7 @@ string forget_pass
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string ipass
 string item_view_role_description
 string login
 string m3_ref_typeface_brand_display_regular
@@ -4748,6 +4767,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style colored_checkBox
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

@@ -12,7 +12,6 @@ import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -23,7 +22,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class ServiceCenterActivity extends MyBaseActivity {
-    private CookieString cookieString;
+    private Values values;
     private RecyclerView recyclerView;
     Context context = this;
     String url = "http://team8.byethost6.com/";
@@ -53,8 +52,8 @@ public class ServiceCenterActivity extends MyBaseActivity {
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());
         StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectLeakedClosableObjects().detectLeakedSqlLiteObjects().penaltyLog().build());
 
-        cookieString = (CookieString)getApplication();
-        cookieStr = cookieString.getCookieStr();
+        values = (Values)getApplication();
+        cookieStr = values.getCookieStr();
         if (cookieStr!=null){
             select(null);}
         else {
@@ -85,7 +84,6 @@ public class ServiceCenterActivity extends MyBaseActivity {
         webView.loadUrl(url);
         webView.clearCache(true);
         webView.clearHistory();
-
         cookieManager.removeAllCookie();
         cookieManager.removeSessionCookie();
     }
@@ -96,7 +94,7 @@ public class ServiceCenterActivity extends MyBaseActivity {
         }
     };
 
-    public void select(String id) {
+    private void select(String id) {
         try {
             String r = ServiceCenterPhp.ServiceCenterPhp(id, cookieStr, url);
             if (!r.trim().equals("null")){

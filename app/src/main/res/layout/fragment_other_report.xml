@@ -174,7 +174,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="無法借車"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -188,7 +188,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="95dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="無法還車" />
         </LinearLayout>
 
@@ -208,7 +208,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="無法臨停"
-                android:onClick="onCheckboxClicked"/>
+                android:theme="@style/colored_checkBox"/>
 
             <View
                 android:layout_width="0dp"
@@ -222,7 +222,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right|center_vertical"
                 android:layout_marginRight="123dp"
-                android:onClick="onCheckboxClicked"
+                android:theme="@style/colored_checkBox"
                 android:text="其他" />
         </LinearLayout>
 

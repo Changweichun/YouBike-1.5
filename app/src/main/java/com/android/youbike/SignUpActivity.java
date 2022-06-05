@@ -1,15 +1,12 @@
 package com.android.youbike;
 
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.text.InputType;
-import android.view.MotionEvent;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
@@ -21,18 +18,15 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.codec.binary.StringUtils;
-
 import java.text.ParseException;
 import java.util.Date;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Locale;
 
 public class SignUpActivity extends MyBaseActivity{
     String url = "http://team8.byethost6.com/";
-    CookieString cookieString;
+    Values values;
     CookieManager cookieManager;
     public String cookieStr;
     WebView webView;
@@ -58,8 +52,8 @@ public class SignUpActivity extends MyBaseActivity{
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());
         StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectLeakedClosableObjects().detectLeakedSqlLiteObjects().penaltyLog().build());
 
-        cookieString = (CookieString)getApplication();
-        cookieStr = cookieString.getCookieStr();
+        values = (Values)getApplication();
+        cookieStr = values.getCookieStr();
 
         if (cookieStr == null)
             Wcookie(context);
@@ -109,7 +103,7 @@ public class SignUpActivity extends MyBaseActivity{
                     flag = 1;
                     tvPhone.setText("必填");
                 }
-                else if (etPhone.getText().toString().trim().length() != 10){
+                else if (!etPhone.getText().toString().matches("^[0]{1}[9]{1}[0-9]{8}")){
                     flag = 1;
                     tvPhone.setText("手機格式不正確");
                 }

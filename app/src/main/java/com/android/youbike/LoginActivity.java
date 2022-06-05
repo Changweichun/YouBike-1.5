@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.view.ContentInfo;
 import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
@@ -17,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends MyBaseActivity{
-    private CookieString cookieString;
+    private Values values;
     Context context = this;
     EditText etPhone, etPw;
     TextView rsTV1, rsTV2;
@@ -41,8 +40,8 @@ public class LoginActivity extends MyBaseActivity{
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());
         StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectLeakedClosableObjects().detectLeakedSqlLiteObjects().penaltyLog().build());
 
-        cookieString = (CookieString)getApplication();
-        cookieStr = cookieString.getCookieStr();
+        values = (Values)getApplication();
+        cookieStr = values.getCookieStr();
         if (cookieStr==null)
             Wcookie(context);
 
@@ -67,11 +66,18 @@ public class LoginActivity extends MyBaseActivity{
                      String r = LOGINphp.DBstring(etPhone.getText().toString(), etPw.getText().toString(), cookieStr, url);
                      if (!r.equals("帳號或密碼錯誤")) {
                          if (r.charAt(10) == '0') {
-                             Intent intent1=new Intent(LoginActivity.this, ServiceCenterActivity.class);
-                             Bundle bundle= new Bundle();
-                             bundle.putString("cookie", cookieStr);
-                             intent1.putExtras(bundle);
-                             startActivity(intent1);
+                             values.setLogin_state(0);
+                             values.setAccount(etPhone.getText().toString());
+                             Intent intent = new Intent();
+                             intent.setClass(getApplicationContext(), MainActivity.class);
+                             Toast.makeText(getApplicationContext(), "登入成功!", Toast.LENGTH_SHORT).show();
+                             startActivity(intent);
+                             etPhone.setText("");
+                             etPw.setText("");
+                         }
+                         else if(r.charAt(10) == '1'){
+                             values.setLogin_state(1);
+                             values.setAccount(etPhone.getText().toString());
                              Intent intent = new Intent();
                              intent.setClass(getApplicationContext(), MainActivity.class);
                              Toast.makeText(getApplicationContext(), "登入成功!", Toast.LENGTH_SHORT).show();
@@ -102,8 +108,8 @@ public class LoginActivity extends MyBaseActivity{
                 super.onPageFinished(view, url);
                 cookieManager.setAcceptCookie(true);
                 cookieStr=cookieManager.getCookie(url);
-                cookieString=(CookieString)getApplication();
-                cookieString.setCookieStr(cookieStr);
+                values =(Values)getApplication();
+                values.setCookieStr(cookieStr);
             }
         });
         webView.loadUrl(url);

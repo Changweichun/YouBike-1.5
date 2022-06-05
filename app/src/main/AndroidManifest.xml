@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.YouBike"
-        android:name=".CookieString"
+        android:name=".Values"
         android:usesCleartextTraffic="true"
         >
         <activity

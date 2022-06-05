@@ -42,7 +42,9 @@
             android:layout_height="wrap_content"
             android:text="通報内容："
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:lines="2"
+            android:ellipsize="end"/>
     </LinearLayout>
 
     <View

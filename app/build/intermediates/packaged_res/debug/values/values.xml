@@ -13,6 +13,7 @@
         <item>其他</item>
     </array>
     <color name="black">#FF000000</color>
+    <color name="dark_gray">#6C6C6C</color>
     <color name="gray">	#BEBEBE</color>
     <color name="holo_orange_dark">#FF8800</color>
     <color name="lightBlue">#0080FF</color>
@@ -28,9 +29,15 @@
     <string name="birth">生日</string>
     <string name="button_mng_cancel">取消</string>
     <string name="button_msg">確定</string>
+    <string name="card_manage">卡片管理</string>
+    <string name="card_new">卡片新增</string>
+    <string name="card_type">卡片類型</string>
+    <string name="card_type_notice">欲使用掃碼租車，請新增[掃碼綁定卡]，並選擇支付工具</string>
     <string name="disagree">不同意</string>
+    <string name="easy_card">悠遊卡</string>
     <string name="forget_pass">忘記密碼</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ipass">一卡通</string>
     <string name="login">登入</string>
     <string name="mail">電子信箱</string>
     <string name="password">密碼</string>
@@ -237,5 +244,8 @@ d59c79cd00e.pdf）</string>
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         
+    </style>
+    <style name="colored_checkBox" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorAccent">@color/holo_orange_dark</item>
     </style>
 </resources>
