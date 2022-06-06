@@ -41,12 +41,7 @@ public class ServiceCenterActivity extends MyBaseActivity {
             }
         });
 
-        findViewById(R.id.menu).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),navigationActivity.class));
-            }
-        });
+
 
         recyclerView = (RecyclerView) findViewById(R.id.recycle_view);
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectDiskReads().detectDiskWrites().detectNetwork().penaltyLog().build());

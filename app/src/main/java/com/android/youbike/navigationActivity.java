@@ -24,12 +24,13 @@ public class navigationActivity extends AppCompatActivity {
         //assign variable
         drawerLayout = findViewById(R.id.drawer_layout);
     }
-    public void ClickMAp(View view){
+
+    public void ClickMenu(View view){
         //open drawer
         openDrawer(drawerLayout);
     }
 
-    private static void openDrawer(DrawerLayout drawerLayout){
+    public static void openDrawer(DrawerLayout drawerLayout){
         //open drawer Layout
         drawerLayout.openDrawer(GravityCompat.START);
     }
@@ -39,7 +40,7 @@ public class navigationActivity extends AppCompatActivity {
         closeDrawer(drawerLayout);
     }
 
-    private static void closeDrawer(DrawerLayout drawerLayout) {
+    public static void closeDrawer(DrawerLayout drawerLayout) {
         //closed drawer layout
         //check condition
 
@@ -62,23 +63,24 @@ public class navigationActivity extends AppCompatActivity {
     public void ClickInstructions(View view){
         redirectActivity(this,InstructionsActivity.class);
     }
-//    public void ClickLostAndFound(View view){
-//        redirectActivity(this,);
-//    }
-//    public void ClickFindBikes(View view){
-//        redirectActivity(this,);
-//    }
-//    public void ClickCardsManagement(View view){
-//        redirectActivity(this,);
-//    }
-//    public void ClickRideTicket(View view){
-//        redirectActivity(this,);
-//    }
+    public void ClickLostAndFound(View view){
+        redirectActivity(this,LostAndFoundActivity.class);
+    }
+    public void ClickFindBikes(View view){
+        redirectActivity(this,FindBikesActivity.class);
+    }
+    public void ClickCardsManagement(View view){
+        redirectActivity(this,CardsManageActivity.class);
+    }
+    public void ClickRideTicket(View view){
+        redirectActivity(this,RideTicketNewActivity.class);
+    }
     public void ClickPayment(View view){
+
         redirectActivity(this,paymentActivity.class);
     }
 
-    private static void redirectActivity(Activity activity ,Class aClass) {
+    public static void redirectActivity(Activity activity ,Class aClass) {
         //initialize intent
         Intent intent = new Intent(activity,aClass);
         //set flag
