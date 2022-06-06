@@ -67,10 +67,10 @@ public class navigationActivity extends AppCompatActivity {
         redirectActivity(this,LostAndFoundActivity.class);
     }
     public void ClickFindBikes(View view){
-        redirectActivity(this,FindBikesActivity.class);
+        redirectActivity(this,FindBikeActivity.class);
     }
     public void ClickCardsManagement(View view){
-        redirectActivity(this,CardsManageActivity.class);
+        redirectActivity(this,CardManageActivity.class);
     }
     public void ClickRideTicket(View view){
         redirectActivity(this,RideTicketNewActivity.class);

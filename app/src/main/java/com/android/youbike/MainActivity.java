@@ -70,6 +70,13 @@ public class MainActivity extends MyBaseActivity {
             }
         });
 
+        findViewById(R.id.bt8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),CardNewTwoActivity.class));
+            }
+        });
+
 
 
         values =(Values)getApplication();

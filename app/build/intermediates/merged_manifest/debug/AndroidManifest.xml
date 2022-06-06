@@ -35,6 +35,33 @@
         android:theme="@style/Theme.YouBike"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.android.youbike.RideTicketNewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.LostAndFoundActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.FindBikeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.CardNewTwoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.CardNewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.CardManageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.FiTestingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.RideTicketManageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.android.youbike.LostAndFoundTypeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.android.youbike.navigationActivity"
             android:exported="false" />
         <activity
@@ -86,24 +113,19 @@
             android:exported="false" />
         <activity
             android:name="com.android.youbike.AccidentNotificationRecordDetailActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.AccidentNotificationRecordActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.NoticeActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.AccidentNotificationFixActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.AccidentNotificationFixDetailActivity"
-            android:exported="false" >
-        </activity>
+            android:exported="false" />
         <activity
             android:name="com.android.youbike.BikeReportSysActivity"
             android:exported="false" >
