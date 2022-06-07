@@ -24,8 +24,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.youbike.adapter.AmountAdapter;
-import com.android.youbike.adapter.FixAdapter;
-import com.android.youbike.entity.FixBean;
 import com.android.youbike.entity.RecordBean;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.listener.OnItemClickListener;
@@ -34,7 +32,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class AccidentNotificationRecordActivity extends MyBaseActivity {
     private Values values;
@@ -232,10 +229,6 @@ public class AccidentNotificationRecordActivity extends MyBaseActivity {
                                 alertDialog.dismiss();
                             }
                         });
-
-                        /*Intent intent = new Intent(getApplicationContext(), AccidentNotificationFixDetailActivity.class);
-                        intent.putExtra("data", list.get(position));
-                        startActivity(intent);*/
                     }
                 });
             }

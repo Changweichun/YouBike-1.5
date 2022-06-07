@@ -49,15 +49,14 @@
             android:paddingBottom="5dp">
 
             <Spinner
-                android:id="@+id/locationspinner"
+                android:id="@+id/poll_locationspinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/shape5"
                 android:layout_marginLeft="10dp"
+                android:background="@drawable/shape5"
                 android:entries="@array/location_array"
                 android:minHeight="48dp"
-                android:spinnerMode="dialog"
-                />
+                android:spinnerMode="dialog" />
 
         </LinearLayout>
 
@@ -81,16 +80,17 @@
 
 
             <EditText
-                android:id="@+id/poll"
+                android:id="@+id/et_poll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#d3d3d3"
                 android:layout_marginLeft="10dp"
+                android:background="#d3d3d3"
                 android:hint="車柱柱號"
                 android:inputType=""
+                android:lines="1"
                 android:minHeight="48dp"
                 android:paddingHorizontal="12dp"
-                android:lines="1"/>
+                android:maxLength="10"/>
 
         </LinearLayout>
 
@@ -207,7 +207,7 @@
             android:paddingBottom="5dp">
 
             <CheckBox
-                android:id="@+id/others"
+                android:id="@+id/poll_others"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
@@ -258,7 +258,7 @@
 
 
             <EditText
-                android:id="@+id/repairnotes"
+                android:id="@+id/poll_repairnotes"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#d3d3d3"
@@ -266,7 +266,8 @@
                 android:hint="備註說明"
                 android:minHeight="90dp"
                 android:paddingHorizontal="12dp"
-                android:lines="3"/>
+                android:lines="3"
+                android:maxLength="255"/>
 
         </LinearLayout>
 
@@ -296,7 +297,7 @@
                 />
 
             <Button
-                android:id="@+id/send"
+                android:id="@+id/pollReportSend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/holo_orange_dark"
