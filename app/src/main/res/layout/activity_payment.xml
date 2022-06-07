@@ -33,7 +33,7 @@
                 android:src="@mipmap/img_1"
                 app:tint="@android:color/holo_orange_dark"
                 tools:src="?attr/homeAsUpIndicator"
-                tools:srcCompat="?attr/actionModeCloseDrawable" />
+                tools:srcCompat="?attr/actionModeCloseDrawable"/>
 
             <TextView
                 android:layout_width="133dp"

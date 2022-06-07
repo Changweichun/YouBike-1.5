@@ -25,7 +25,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="359dp"
-            android:src="@mipmap/img"
+            android:src="@mipmap/img_1"
             app:tint="@android:color/holo_orange_dark" />
 
         <TextView

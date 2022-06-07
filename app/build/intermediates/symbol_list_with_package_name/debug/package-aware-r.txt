@@ -2735,6 +2735,7 @@ id bounceEnd
 id bounceStart
 id breaker
 id bt1
+id bt10
 id bt2
 id bt3
 id bt4
@@ -2742,6 +2743,7 @@ id bt5
 id bt6
 id bt7
 id bt8
+id bt9
 id button
 id button10
 id button2
@@ -2847,6 +2849,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id easycard
 id editText
 id edit_query
 id elastic
@@ -2923,6 +2926,7 @@ id included
 id info
 id invisible
 id inward
+id ipass
 id italic
 id item1
 id item2
@@ -3192,24 +3196,25 @@ id textTop
 id textView
 id textView10
 id textView11
-id textView12
 id textView13
-id textView14
 id textView15
 id textView16
 id textView17
 id textView18
 id textView19
+id textView2
 id textView25
 id textView26
 id textView27
 id textView28
 id textView29
+id textView3
 id textView30
 id textView31
 id textView32
 id textView33
 id textView34
+id textView4
 id textView5
 id textView6
 id textView7
@@ -3405,6 +3410,7 @@ layout activity_accident_notification
 layout activity_bike_reportsys
 layout activity_card_manage
 layout activity_card_new
+layout activity_card_new_three
 layout activity_card_new_two
 layout activity_equipment_introduction
 layout activity_fare_desc

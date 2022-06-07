@@ -79,6 +79,8 @@ public class MainActivity extends MyBaseActivity {
 
 
 
+
+
         values =(Values)getApplication();
         cookieStr = values.getCookieStr();
         if(cookieStr==null)
