@@ -2734,7 +2734,6 @@ int id bounceEnd 0x7f090076
 int id bounceStart 0x7f090077
 int id breaker 0x7f090078
 int id bt1 0x7f090079
-int id bt10 0x7f0902bf
 int id bt2 0x7f09007a
 int id bt3 0x7f09007b
 int id bt4 0x7f09007c
@@ -2742,7 +2741,6 @@ int id bt5 0x7f09007d
 int id bt6 0x7f09007e
 int id bt7 0x7f09007f
 int id bt8 0x7f090080
-int id bt9 0x7f0902c0
 int id button 0x7f090081
 int id button10 0x7f090082
 int id button2 0x7f090083
@@ -3200,7 +3198,6 @@ int id textView15 0x7f090246
 int id textView16 0x7f090247
 int id textView17 0x7f090248
 int id textView18 0x7f090249
-int id textView19 0x7f09024a
 int id textView2 0x7f0902c1
 int id textView25 0x7f09024b
 int id textView26 0x7f09024c

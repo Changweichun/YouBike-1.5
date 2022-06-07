@@ -17,13 +17,13 @@
 
         <ImageView
             android:id="@+id/menu"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
-            android:layout_marginEnd="369dp"
+            android:layout_marginEnd="359dp"
             android:src="@mipmap/img_1"
             app:tint="@android:color/holo_orange_dark" />
 
@@ -33,10 +33,10 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="62dp"
-            android:layout_marginEnd="258dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="220dp"
             android:layout_toRightOf="@+id/menu"
-            android:text="@string/card_type"
+            android:text="卡片類型"
             android:textColor="#333333"
             android:textSize="23sp" />
 

@@ -2735,7 +2735,6 @@ id bounceEnd
 id bounceStart
 id breaker
 id bt1
-id bt10
 id bt2
 id bt3
 id bt4
@@ -2743,7 +2742,6 @@ id bt5
 id bt6
 id bt7
 id bt8
-id bt9
 id button
 id button10
 id button2
@@ -3201,7 +3199,6 @@ id textView15
 id textView16
 id textView17
 id textView18
-id textView19
 id textView2
 id textView25
 id textView26
