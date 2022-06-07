@@ -1,13 +1,22 @@
 package com.android.youbike;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
@@ -17,6 +26,12 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 
 public class BikeReportSysActivity extends MyBaseActivity {
+    private Values values;
+    private String cookieStr;
+    private CookieManager cookieManager;
+    private String url = "http://team8.byethost6.com/";
+    private WebView webView;
+    private Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +61,27 @@ public class BikeReportSysActivity extends MyBaseActivity {
                 finish();
             }
         });
+
+
+        values = (Values) getApplication();
+        String account = values.getAccount();
+        if (account == null){
+            AlertDialog.Builder builder = new AlertDialog.Builder(BikeReportSysActivity.this);
+            View view1 = LayoutInflater.from(BikeReportSysActivity.this).inflate(R.layout.error_dialog, null);
+            TextView title = view1.findViewById(R.id.error_title);
+            title.setText("請先登入");
+
+            builder.setView(view1).setPositiveButton("確定", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    finish();
+                }
+            }).setCancelable(false).show();
+        }else{
+            cookieStr = values.getCookieStr();
+            if (cookieStr==null)
+                Wcookie(context);
+        }
     }
 
     public void hideKeyboard(Context context, View view) {
@@ -53,7 +89,26 @@ public class BikeReportSysActivity extends MyBaseActivity {
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
+    private void Wcookie(Context context){
+        webView = new WebView(context);
+        CookieSyncManager.createInstance(context);
+        cookieManager= CookieManager.getInstance();
 
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient(){
+            public void onPageFinished(WebView view, String url){
+                super.onPageFinished(view, url);
+                cookieManager.setAcceptCookie(true);
+                cookieStr=cookieManager.getCookie(url);
+                values.setCookieStr(cookieStr);
+            }
+        });
+        webView.loadUrl(url);
+        webView.clearCache(true);
+        webView.clearHistory();
 
-
+        cookieManager.removeAllCookie();
+        cookieManager.removeSessionCookie();
+    }
 }

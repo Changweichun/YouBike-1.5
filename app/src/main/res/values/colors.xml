@@ -11,4 +11,5 @@
     <color name="gray">	#BEBEBE</color>
     <color name="dark_gray">#6C6C6C</color>
     <color name="lightBlue">#0080FF</color>
+    <color name="green">#00DB00</color>
 </resources>

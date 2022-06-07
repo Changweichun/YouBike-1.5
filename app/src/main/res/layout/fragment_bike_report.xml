@@ -89,7 +89,8 @@
                 android:inputType=""
                 android:minHeight="48dp"
                 android:paddingHorizontal="12dp"
-                android:lines="1"/>
+                android:lines="1"
+                android:maxLength="10"/>
 
         </LinearLayout>
 
@@ -119,10 +120,11 @@
                 android:background="#d3d3d3"
                 android:layout_marginLeft="10dp"
                 android:hint="自行車車號"
-                android:inputType="number"
+                android:inputType=""
                 android:minHeight="48dp"
                 android:paddingHorizontal="12dp"
-                android:lines="1"/>
+                android:lines="1"
+                android:maxLength="10"/>
 
         </LinearLayout>
 
@@ -342,7 +344,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:text="車機"
-                android:theme="@style/colored_checkBox"/>
+                android:theme="@style/colored_checkBox" />
 
             <View
                 android:layout_width="0dp"
@@ -409,6 +411,7 @@
                 android:minHeight="90dp"
                 android:paddingHorizontal="12dp"
                 android:lines="3"
+                android:maxLength="255"
                 />
 
 
@@ -440,7 +443,7 @@
                 />
 
             <Button
-                android:id="@+id/send"
+                android:id="@+id/bikeReportSend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/holo_orange_dark"
