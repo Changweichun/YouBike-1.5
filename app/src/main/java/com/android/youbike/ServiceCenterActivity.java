@@ -13,6 +13,9 @@ import android.webkit.CookieSyncManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,7 +24,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class ServiceCenterActivity extends MyBaseActivity {
+public class ServiceCenterActivity extends AppCompatActivity {
+
+
     private Values values;
     private RecyclerView recyclerView;
     Context context = this;
@@ -29,17 +34,21 @@ public class ServiceCenterActivity extends MyBaseActivity {
     CookieManager cookieManager;
     public String cookieStr;
     WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service_center);
+
 
         findViewById(R.id.tv).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),AccidentNotificationActivity.class));
             }
+
         });
+
 
 
 
@@ -62,6 +71,52 @@ public class ServiceCenterActivity extends MyBaseActivity {
         }
 
     }
+
+//    public void ClickMenu(View view){
+//        //open drawer
+//        navigationActivity.openDrawer(drawerLayout);
+//    }
+//
+//
+//    public void ClickLogo(View view){
+//        //close drawer
+//        navigationActivity.closeDrawer(drawerLayout);
+//    }
+//
+//    public void ClickMap(View view) {
+//        navigationActivity.redirectActivity(this,navigationActivity.class);
+//    }
+//
+//    public void ClickServiceCenter(View view){
+//        recreate();
+//    }
+//    public void ClickInstructions(View view){
+//        navigationActivity.redirectActivity(this,InstructionsActivity.class);
+//    }
+//    public void ClickLostAndFound(View view){
+//        navigationActivity.redirectActivity(this,LostAndFoundActivity.class);
+//    }
+//    public void ClickFindBikes(View view){
+//        navigationActivity.redirectActivity(this,FindBikeActivity.class);
+//    }
+//    public void ClickCardsManagement(View view){
+//        navigationActivity.redirectActivity(this,CardManageActivity.class);
+//    }
+//    public void ClickRideTicket(View view){
+//        navigationActivity.redirectActivity(this,RideTicketNewActivity.class);
+//    }
+//    public void ClickPayment(View view){
+//        navigationActivity.redirectActivity(this,paymentActivity.class);
+//    }
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//        //Closed drawer
+//        navigationActivity.closeDrawer(drawerLayout);
+//    }
+
+
+
 
     private void Wcookie(Context context){
         webView = new WebView(context);
@@ -119,4 +174,5 @@ public class ServiceCenterActivity extends MyBaseActivity {
             Log.e("log_tag=", e.toString());
         }
     }
+
 }

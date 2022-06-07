@@ -211,5 +211,12 @@ d59c79cd00e.pdf）</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-
+    <string name="map">站點地圖</string>
+    <string name="ServiceCenter">服務中心</string>
+    <string name="Instructions">使用說明</string>
+    <string name="LostAndFound">失物招領</string>
+    <string name="FindBikes">Youbike協尋</string>
+    <string name="CardManage">卡片管理</string>
+    <string name="RideTicket">騎乘券管理</string>
+    <string name="Payment">補繳款項</string>
 </resources>

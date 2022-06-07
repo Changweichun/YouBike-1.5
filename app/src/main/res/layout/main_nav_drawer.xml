@@ -39,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="站點地圖"
+            android:text="@string/map"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -61,7 +61,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="服務中心"
+            android:text="@string/ServiceCenter"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -83,7 +83,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="使用說明"
+            android:text="@string/Instructions"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -105,7 +105,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="失物招領"
+            android:text="@string/LostAndFound"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -127,7 +127,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Youbike協尋"
+            android:text="@string/FindBikes"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -149,7 +149,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="卡片管理"
+            android:text="@string/card_manage"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -171,7 +171,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="騎乘券管理"
+            android:text="@string/RideTicket"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 
@@ -193,7 +193,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="補繳款項"
+            android:text="@string/Payment"
             android:padding="12dp"
             android:layout_marginStart="16dp"/>
 

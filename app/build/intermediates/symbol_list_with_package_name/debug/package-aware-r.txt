@@ -3024,6 +3024,14 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id navCardManage
+id navFindBikes
+id navInstructions
+id navLostAndFound
+id navMap
+id navPayment
+id navRideTicket
+id navServiceCenter
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3543,6 +3551,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
+menu menu_main
 mipmap baseline_add_card_black_18
 mipmap baseline_close_black_18
 mipmap baseline_confirmation_number_black_48pt_1x
@@ -3610,6 +3619,13 @@ mipmap img_9
 mipmap p1
 mipmap ride_ticket
 plurals mtrl_badge_content_description
+string CardManage
+string FindBikes
+string Instructions
+string LostAndFound
+string Payment
+string RideTicket
+string ServiceCenter
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3717,6 +3733,7 @@ string m3_sys_typescale_title_large_font
 string m3_sys_typescale_title_medium_font
 string m3_sys_typescale_title_small_font
 string mail
+string map
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection

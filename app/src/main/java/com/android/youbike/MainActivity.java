@@ -10,7 +10,10 @@ import android.webkit.CookieSyncManager;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import androidx.drawerlayout.widget.DrawerLayout;
+
 public class MainActivity extends MyBaseActivity {
+
     private Values values;
     private Context context=this;
     private WebView webView;
@@ -21,6 +24,8 @@ public class MainActivity extends MyBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         findViewById(R.id.bt1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -86,6 +91,7 @@ public class MainActivity extends MyBaseActivity {
         if(cookieStr==null)
             Wcookie(context);
     }
+
     @SuppressLint("SetJavaScriptEnabled")
     private void Wcookie(Context context){
         webView = new WebView(context);

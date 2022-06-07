@@ -16,7 +16,7 @@
         />
 
     <TextView
-        android:layout_width="303dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Youbike"
         android:textAlignment="center"

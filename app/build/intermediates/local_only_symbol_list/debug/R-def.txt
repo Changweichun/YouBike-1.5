@@ -148,6 +148,14 @@ id lost_type_08
 id lost_type_09
 id map
 id menu
+id navCardManage
+id navFindBikes
+id navInstructions
+id navLostAndFound
+id navMap
+id navPayment
+id navRideTicket
+id navServiceCenter
 id otherReportSend
 id others
 id othersCheckbox
@@ -301,6 +309,7 @@ layout res_fix_item
 layout scan_bike
 layout stobroad_search
 layout success_dialog
+menu menu_main
 mipmap baseline_add_card_black_18
 mipmap baseline_close_black_18
 mipmap baseline_confirmation_number_black_48pt_1x
@@ -367,6 +376,13 @@ mipmap img_8
 mipmap img_9
 mipmap p1
 mipmap ride_ticket
+string CardManage
+string FindBikes
+string Instructions
+string LostAndFound
+string Payment
+string RideTicket
+string ServiceCenter
 string agree
 string app_name
 string app_text
@@ -384,6 +400,7 @@ string hello_blank_fragment
 string ipass
 string login
 string mail
+string map
 string password
 string password_confirm
 string phone
