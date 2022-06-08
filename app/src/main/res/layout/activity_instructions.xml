@@ -17,12 +17,12 @@
         android:layout_height="100dp">
 
         <ImageView
-            android:id="@+id/menu"
+            android:id="@+id/back"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
-            android:src="@mipmap/img"
+            android:src="?attr/homeAsUpIndicator"
             app:tint="@android:color/holo_orange_dark" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginStart="20dp"
-            android:layout_toRightOf="@+id/menu"
+            android:layout_toRightOf="@+id/back"
             android:text="Youbike 2.0 使用說明"
             android:textColor="#333333"
             android:textSize="23sp" />

@@ -39,6 +39,7 @@ public class CardManageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_manage);
 
+
         values = (Values) getApplication();
         cookieStr = values.getCookieStr();
         account = values.getAccount();
@@ -68,7 +69,7 @@ public class CardManageActivity extends AppCompatActivity {
         findViewById(R.id.menu).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                startActivity(new Intent(getApplicationContext(),navigationActivity.class));
             }
         });
 

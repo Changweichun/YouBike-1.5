@@ -17,7 +17,7 @@
         android:paddingBottom="20dp">
 
         <ImageView
-            android:id="@+id/menu"
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -25,9 +25,8 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
             android:layout_marginEnd="359dp"
-            android:src="@drawable/ic_menu"
-            app:tint="@android:color/holo_orange_dark"
-            />
+            android:src="?attr/actionModeCloseDrawable"
+            app:tint="@android:color/holo_orange_dark" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,7 +36,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="72dp"
             android:layout_marginEnd="220dp"
-            android:layout_toRightOf="@+id/menu"
+            android:layout_toRightOf="@+id/back"
             android:text="失物招領"
             android:textColor="#333333"
             android:textSize="23sp" />
