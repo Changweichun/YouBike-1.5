@@ -19,6 +19,9 @@
         android:theme="@style/Theme.YouBike"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".CardTransactionActivity"
+            android:exported="false" />
+        <activity
             android:name=".CardNewThreeActivity"
             android:exported="false" />
         <activity

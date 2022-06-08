@@ -17,28 +17,40 @@
 
         <ImageView
             android:id="@+id/menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
-            android:layout_marginEnd="359dp"
-            android:src="@drawable/ic_menu"
+            android:src="?attr/homeAsUpIndicator"
             app:tint="@android:color/holo_orange_dark" />
 
         <TextView
+            android:id="@+id/tvv"
             android:layout_width="123dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="62dp"
-            android:layout_marginEnd="226dp"
+            android:layout_marginEnd="200dp"
             android:layout_toRightOf="@+id/menu"
             android:text="騎乘券管理"
             android:textColor="#333333"
             android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tvvv"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="335dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toRightOf="@+id/tvv"
+            android:text="新增"
+            android:textColor="@color/holo_orange_dark"
+            android:textSize="20sp" />
 
     </RelativeLayout>
 
@@ -48,8 +60,119 @@
         android:layout_height="3dp"
         android:background="#E7E7E7" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="序號："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a15f1-r6dsf-64fsr"
+                    android:textColor="#1E90FF"
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活動敘述："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MeNGo 24小時內30分鐘\n騎乘免費"
+                    android:textColor="#1E90FF"
+                    android:textSize="19dp"
+                    android:layout_margin="3dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活動結束時間："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022-04-20 00:00:00"
+                    android:textColor="#1E90FF"
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活動結束時間："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2022-04-21 00:00:00"
+                    android:textColor="#1E90FF"
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="@color/gray" />
 
 
+        </TableLayout>
+    </LinearLayout>
 
 
 </LinearLayout>

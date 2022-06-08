@@ -18,10 +18,23 @@ public class CardNewThreeActivity extends AppCompatActivity {
     private String cookieStr;
     private String url = "http://team8.byethost6.com/";
     private String account;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_new_three);
+
+        new AlertDialog.Builder(this)
+                .setTitle("提醒您！")
+                .setMessage("1.新增票卡時，請於加卡完成後，再確認傷害險加保登錄資料完整及正確\n2.票卡實際使用者與被保險人須為同一人，才符合理賠資格")
+                .setPositiveButton("確認", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        //你可以在這裡加入事件
+                    }
+                })
+                .setCancelable(false)
+                .show();
 
         values = (Values) getApplication();
         cookieStr = values.getCookieStr();

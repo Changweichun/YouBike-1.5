@@ -1,6 +1,7 @@
 package com.android.youbike;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ public class CardManageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         this.context=context;
         this.items=items;
         this.listener=listener;
+
     }
 
     @NonNull
@@ -38,6 +40,7 @@ public class CardManageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         RecyclerView.ViewHolder holder= new MyHolder(items, listener);
         items.setOnClickListener(this);
         return holder;
+
     }
 
     @Override
@@ -87,6 +90,7 @@ public class CardManageAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
                 @Override
                 public void onClick(View v) {
                     listener.onSelectClicked(itemView, getAdapterPosition(), id.getText().toString(), items.get(getAdapterPosition()).getCardType());
+
                 }
             });
         }

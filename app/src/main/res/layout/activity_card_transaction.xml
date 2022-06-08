@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:gravity="bottom"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="369dp"
+            android:src="@mipmap/img_1"
+            app:tint="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginEnd="226dp"
+            android:layout_toRightOf="@+id/menu"
+            android:text="交易紀錄"
+            android:textColor="#333333"
+            android:textSize="23sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E7E7E7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/card"
+            app:tint="@color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1098765432"
+            android:textSize="19dp" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/white">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="租車地點："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="東園國小 2014/04/24\n11:26:29"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="還車地點："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="青年公園3號出口 2014/04/24\n12:28:16"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="車號："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A01057"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付費用："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10元"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="使用時間："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="61分47秒"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="@color/gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="租車地點："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="東園國小 2014/04/21\n15:53:06"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="還車地點："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="青年公園3號出口 2014/04/21\n16:55:24"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="車號："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A05473"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付費用："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20元"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="使用時間："
+                    android:textSize="19dp"
+                    android:layout_margin="3dp"/>
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="62分18秒"
+                    android:textSize="19dp"
+                    android:textColor="#1E90FF"
+                    android:layout_margin="3dp"/>
+            </TableRow>
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:background="@color/gray" />
+
+        </TableLayout>
+<!--        <TableLayout-->
+<!--            android:layout_width="409dp"-->
+<!--            android:layout_height="576dp">-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView10"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="租車地點："-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:layout_marginRight="5dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView11"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="東園國小 2014/04/24"-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:textColor="#1E90FF"-->
+<!--                    />-->
+<!--            </TableRow>-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView12"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="還車地點："-->
+<!--                    android:textSize="19dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView13"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="青年公園3號出口 2014/04/24"-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:textColor="#1E90FF"/>-->
+<!--            </TableRow>-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView14"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="車號："-->
+<!--                    android:textSize="19dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView15"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="A01057"-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:textColor="#1E90FF"/>-->
+<!--            </TableRow>-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView22"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="支付費用："-->
+<!--                    android:textSize="19dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView21"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="10元"-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:textColor="#1E90FF"/>-->
+<!--            </TableRow>-->
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView19"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="使用時間："-->
+<!--                    android:textSize="19dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView20"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="62分18秒"-->
+<!--                    android:textSize="19dp"-->
+<!--                    android:textColor="#1E90FF"/>-->
+<!--            </TableRow>-->
+<!--        </TableLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

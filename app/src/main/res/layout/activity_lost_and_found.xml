@@ -18,15 +18,13 @@
 
         <ImageView
             android:id="@+id/back"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginStart="12dp"
-            android:layout_marginEnd="359dp"
-            android:src="?attr/actionModeCloseDrawable"
+            android:src="?attr/homeAsUpIndicator"
             app:tint="@android:color/holo_orange_dark" />
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -41,26 +39,26 @@
             android:textColor="#333333"
             android:textSize="23sp" />
 
-        <TextView
-            android:id="@+id/tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="330dp"
-            android:layout_marginEnd="12dp"
-            android:text="分類"
-            android:textColor="@android:color/holo_orange_dark"
-            android:textSize="20sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginStart="330dp"-->
+<!--            android:layout_marginEnd="12dp"-->
+<!--            android:text="分類"-->
+<!--            android:textColor="@android:color/holo_orange_dark"-->
+<!--            android:textSize="20sp" />-->
 
     </RelativeLayout>
 
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="#E7E7E7" />
+        android:layout_height="5dp"
+        android:background="@color/gray" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -70,7 +68,7 @@
         <View
             android:id="@+id/view2"
             android:layout_width="0dp"
-            android:layout_height="1dp"
+            android:layout_height="4dp"
             android:background="#E7E7E7"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
