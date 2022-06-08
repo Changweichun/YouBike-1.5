@@ -1,9 +1,11 @@
 package com.android.youbike;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 
 public class CardNewActivity extends AppCompatActivity {
@@ -13,14 +15,14 @@ public class CardNewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_card_new);
 
-        findViewById(R.id.easycard).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.easycardview).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),CardNewTwoActivity.class));
             }
         });
 
-        findViewById(R.id.ipass).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.ipassview).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),CardNewThreeActivity.class));
@@ -34,4 +36,5 @@ public class CardNewActivity extends AppCompatActivity {
             }
         });
     }
+
 }

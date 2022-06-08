@@ -65,16 +65,19 @@
             app:srcCompat="@mipmap/card_1" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/easyCard"
             android:layout_width="302dp"
             android:layout_height="47dp"
             android:hint="卡號"
+            android:lines="1"
+            android:maxLength="16"
             android:paddingHorizontal="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintHorizontal_bias="0.688"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:inputType="number"/>
 
         <Button
             android:id="@+id/bt3"
@@ -99,6 +102,21 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/baseline_add_card_black_18"
             app:tint="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/easycard_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/bt3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.917"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/easyCard"
+            app:layout_constraintVertical_bias="0.0"
+            android:textSize="16sp"
+            android:textAlignment="textEnd"
+            android:textColor="#ff0000"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

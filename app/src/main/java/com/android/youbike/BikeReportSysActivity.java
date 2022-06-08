@@ -27,11 +27,7 @@ import java.util.ArrayList;
 
 public class BikeReportSysActivity extends MyBaseActivity {
     private Values values;
-    private String cookieStr;
-    private CookieManager cookieManager;
-    private String url = "http://team8.byethost6.com/";
-    private WebView webView;
-    private Context context = this;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,10 +73,6 @@ public class BikeReportSysActivity extends MyBaseActivity {
                     finish();
                 }
             }).setCancelable(false).show();
-        }else{
-            cookieStr = values.getCookieStr();
-            if (cookieStr==null)
-                Wcookie(context);
         }
     }
 
@@ -89,26 +81,4 @@ public class BikeReportSysActivity extends MyBaseActivity {
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
 
-    @SuppressLint("SetJavaScriptEnabled")
-    private void Wcookie(Context context){
-        webView = new WebView(context);
-        CookieSyncManager.createInstance(context);
-        cookieManager= CookieManager.getInstance();
-
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.setWebViewClient(new WebViewClient(){
-            public void onPageFinished(WebView view, String url){
-                super.onPageFinished(view, url);
-                cookieManager.setAcceptCookie(true);
-                cookieStr=cookieManager.getCookie(url);
-                values.setCookieStr(cookieStr);
-            }
-        });
-        webView.loadUrl(url);
-        webView.clearCache(true);
-        webView.clearHistory();
-
-        cookieManager.removeAllCookie();
-        cookieManager.removeSessionCookie();
-    }
 }

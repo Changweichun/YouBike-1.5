@@ -2621,6 +2621,7 @@ id BaseQuickAdapter_dragging_support
 id BaseQuickAdapter_swiping_support
 id BaseQuickAdapter_viewholder_support
 id CTRL
+id CardImage
 id FUNCTION
 id LOCATIONPILLAR
 id META
@@ -2725,6 +2726,7 @@ id beginOnFirstDraw
 id beginning
 id bell
 id bestChoice
+id bikeNum
 id bikeReportSend
 id bikenumber
 id blocking
@@ -2742,9 +2744,7 @@ id bt5
 id bt6
 id bt7
 id bt8
-id button
 id button10
-id button2
 id button3
 id button4
 id button5
@@ -2760,6 +2760,9 @@ id cancel_button
 id cantpark
 id cantrent
 id cantreturn
+id cardImage
+id card_recycler
+id cardnum
 id carryVelocity
 id center
 id center_horizontal
@@ -2809,6 +2812,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteBtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2847,7 +2851,11 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id easyCard
+id easyCardNum
 id easycard
+id easycard_tv
+id easycardview
 id editText
 id edit_query
 id elastic
@@ -2900,6 +2908,7 @@ id homeAsUp
 id honorRequest
 id horizontal_only
 id hybrid
+id iPASSeditText
 id icon
 id icon_group
 id icon_only
@@ -2907,7 +2916,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView13
 id imageView14
 id imageView15
@@ -2915,7 +2923,6 @@ id imageView16
 id imageView2
 id imageView3
 id imageView4
-id imageView5
 id imageView6
 id imageView8
 id imageView9
@@ -2925,6 +2932,8 @@ id info
 id invisible
 id inward
 id ipass
+id ipassError
+id ipassview
 id italic
 id item1
 id item2
@@ -3024,14 +3033,6 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-id navCardManage
-id navFindBikes
-id navInstructions
-id navLostAndFound
-id navMap
-id navPayment
-id navRideTicket
-id navServiceCenter
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3042,6 +3043,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newCard
 id noScroll
 id noState
 id none
@@ -3050,6 +3052,9 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id notification_msg
+id notification_title
+id num
 id off
 id on
 id onAttachStateChangeListener
@@ -3091,6 +3096,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycle
 id recycle_view
 id repairnotes
 id reverseSawtooth
@@ -3125,6 +3131,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id selectBtn
 id select_dialog_listview
 id selected
 id selection_type
@@ -3200,10 +3207,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView10
-id textView11
-id textView13
-id textView15
 id textView16
 id textView17
 id textView18
@@ -3224,7 +3227,6 @@ id textView5
 id textView6
 id textView7
 id textView8
-id textView9
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3300,11 +3302,9 @@ id view12
 id view2
 id view3
 id view4
-id view5
 id view6
 id view7
 id view8
-id view9
 id viewPager
 id view_offset_helper
 id view_transition
@@ -3444,6 +3444,7 @@ layout activity_service_center_adapter1
 layout activity_signup
 layout activity_termofuse
 layout brvah_quick_view_load_more
+layout card_manage_adapter
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3461,6 +3462,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout error_dialog
+layout find_bike_adapter
 layout fragment_bike_report
 layout fragment_lease_mode_one
 layout fragment_lease_mode_two
@@ -3519,6 +3521,7 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout notification_action
 layout notification_action_tombstone
+layout notification_dialog
 layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
@@ -3551,7 +3554,6 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu example_menu
 menu example_menu2
-menu menu_main
 mipmap baseline_add_card_black_18
 mipmap baseline_close_black_18
 mipmap baseline_confirmation_number_black_48pt_1x
@@ -3616,6 +3618,7 @@ mipmap img_6
 mipmap img_7
 mipmap img_8
 mipmap img_9
+mipmap notification
 mipmap p1
 mipmap ride_ticket
 plurals mtrl_badge_content_description

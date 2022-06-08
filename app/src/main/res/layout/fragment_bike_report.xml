@@ -90,7 +90,8 @@
                 android:minHeight="48dp"
                 android:paddingHorizontal="12dp"
                 android:lines="1"
-                android:maxLength="10"/>
+                android:maxLength="10"
+                android:singleLine="true"/>
 
         </LinearLayout>
 
@@ -124,7 +125,8 @@
                 android:minHeight="48dp"
                 android:paddingHorizontal="12dp"
                 android:lines="1"
-                android:maxLength="10"/>
+                android:maxLength="10"
+                android:singleLine="true"/>
 
         </LinearLayout>
 
