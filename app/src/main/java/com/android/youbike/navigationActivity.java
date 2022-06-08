@@ -76,6 +76,7 @@ public class navigationActivity extends AppCompatActivity {
         redirectActivity(this,RideTicketNewActivity.class);
     }
     public void ClickPayment(View view){redirectActivity(this,paymentActivity.class);}
+    public void Clicklogin(View view){redirectActivity(this,LoginActivity.class);}
 
     public static void redirectActivity(Activity activity ,Class aClass) {
         //initialize intent

@@ -148,7 +148,7 @@
         <entry key="app/src/main/res/layout/activity_lost_and_found.xml" value="0.5659103393554688" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2762176513671877" />
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.11871026080587632" />
-        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.16889844500152756" />
+        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_payment.xml" value="0.22392120361328133" />
         <entry key="app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.2570409138997396" />
         <entry key="app/src/main/res/layout/activity_safe_ride.xml" value="0.23489583333333333" />
@@ -160,7 +160,7 @@
         <entry key="app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.32974853515625" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.30566253662109377" />
         <entry key="app/src/main/res/layout/main_toolbar.xml" value="0.22135416666666666" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.19895833333333332" />
       </map>

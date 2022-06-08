@@ -52,6 +52,7 @@
     <string name="password">密碼</string>
     <string name="password_confirm">確認密碼</string>
     <string name="phone">手機號碼</string>
+    <string name="regionChoose">區域切換</string>
     <string name="region_hsinchu">新竹市</string>
     <string name="region_hsinchuscience">新竹科學園區</string>
     <string name="region_miaoli">苗栗縣</string>
