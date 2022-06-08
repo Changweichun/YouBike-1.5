@@ -60,7 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="意外發生地點"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:singleLine="true"/>
     </LinearLayout>
     <TextView
         android:id="@+id/tv_add"
@@ -91,7 +92,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="姓名"
-            android:paddingHorizontal="12dp" />
+            android:paddingHorizontal="12dp"
+            android:singleLine="true"/>
     </LinearLayout>
     <TextView
         android:id="@+id/tv_name"
@@ -123,7 +125,8 @@
             android:layout_height="wrap_content"
             android:hint="手機號码"
             android:paddingHorizontal="12dp"
-            android:inputType="number"/>
+            android:inputType="number"
+            android:singleLine="true"/>
     </LinearLayout>
     <TextView
         android:id="@+id/tv_phone"

@@ -48,141 +48,139 @@
         android:layout_height="3dp"
         android:background="#E7E7E7" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:id="@+id/easycardview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="77dp"
+                android:layout_height="47dp"
+                app:srcCompat="@mipmap/card_1"
+                android:layout_marginLeft="30dp"/>
+            <TextView
+                android:id="@+id/easycard"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:text="@string/easy_card"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                 />
+
+        </LinearLayout>
         <View
             android:id="@+id/view8"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#E7E7E7"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/iv2"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.264" />
 
-        <View
-            android:id="@+id/view9"
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:background="#E7E7E7"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/iv2"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.392" />
+<!--        <View-->
+<!--            android:id="@+id/view9"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#E7E7E7"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintLeft_toRightOf="@+id/iv2"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.392" />-->
+
+        <LinearLayout
+            android:id="@+id/ipassview"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="93dp"
+                android:layout_height="58dp"
+                android:layout_marginLeft="25dp"
+                app:srcCompat="@mipmap/card_2" />
+
+            <TextView
+                android:id="@+id/ipass"
+                android:layout_width="76dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/ipass"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
 
         <View
             android:id="@+id/view7"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#E7E7E7"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/iv2"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.13" />
+         />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="93dp"
-            android:layout_height="58dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.097"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.171"
-            app:srcCompat="@mipmap/card_2" />
 
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="77dp"
-            android:layout_height="47dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.104"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.027"
-            app:srcCompat="@mipmap/card_1" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="89dp"
-            android:layout_height="56dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.096"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.304"
-            app:srcCompat="@mipmap/card_3" />
 
-        <TextView
-            android:id="@+id/easycard"
-            android:layout_width="76dp"
-            android:layout_height="30dp"
-            android:text="@string/easy_card"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.438"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.043" />
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView5"-->
+<!--            android:layout_width="89dp"-->
+<!--            android:layout_height="56dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.096"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.304"-->
+<!--            app:srcCompat="@mipmap/card_3" />-->
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="125dp"
-            android:layout_height="25dp"
-            android:text="掃碼綁定卡"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.513"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.313" />
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="392dp"
-            android:layout_height="26dp"
-            android:text="@string/card_type_notice"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.473"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.431" />
 
-        <TextView
-            android:id="@+id/ipass"
-            android:layout_width="76dp"
-            android:layout_height="30dp"
-            android:text="@string/ipass"
-            android:textAlignment="textStart"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.438"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.188" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--        <TextView-->
+<!--            android:id="@+id/textView13"-->
+<!--            android:layout_width="125dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:text="掃碼綁定卡"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.513"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.313" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView15"-->
+<!--            android:layout_width="392dp"-->
+<!--            android:layout_height="26dp"-->
+<!--            android:text="@string/card_type_notice"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.473"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.431" />-->
+
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"

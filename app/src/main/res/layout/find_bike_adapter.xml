@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:backgroundTint="@null"
+        android:paddingTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bikeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0100570"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02-89785511"
+            android:textColor="@color/lightBlue"
+            android:textSize="20sp"
+            android:layout_marginLeft="75dp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+</LinearLayout>
