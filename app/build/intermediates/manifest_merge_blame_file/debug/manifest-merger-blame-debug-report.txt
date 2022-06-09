@@ -6,19 +6,19 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml
+8-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml
+9-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:6:5-67
-11-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-12-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:7:5-9:47
-12-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:8:9-57
+12-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:7:5-9:47
+12-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:8:9-57
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:10:5-79
-13-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:10:22-76
+13-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:10:5-79
+13-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:10:22-76
 14
 15    <uses-feature
 15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\a9536\.gradle\caches\transforms-3\2268d78e8d973ac67ebb2d1353460d6a\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
@@ -37,226 +37,226 @@
 23    </queries>
 24
 25    <application
-25-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:12:5-124:19
+25-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:12:5-124:19
 26        android:name="com.android.youbike.Values"
-26-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:13:9-31
+26-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:13:9-31
 27        android:allowBackup="true"
-27-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:14:9-35
+27-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:14:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.7.0] C:\Users\a9536\.gradle\caches\transforms-3\fa86d4c6beb78585879744119d2d07a8\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:15:9-43
+30-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:15:9-43
 31        android:label="@string/app_name"
-31-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:16:9-41
+31-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:16:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:17:9-54
+32-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:17:9-54
 33        android:supportsRtl="true"
-33-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:18:9-35
+33-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:18:9-35
 34        android:testOnly="true"
 35        android:theme="@style/Theme.YouBike"
-35-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:19:9-45
+35-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:19:9-45
 36        android:usesCleartextTraffic="true" >
-36-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:20:9-44
+36-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:20:9-44
 37        <activity
-37-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:21:9-23:40
+37-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:21:9-23:40
 38            android:name="com.android.youbike.CardTransactionActivity"
-38-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:22:13-52
+38-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:22:13-52
 39            android:exported="false" />
-39-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:23:13-37
+39-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:23:13-37
 40        <activity
-40-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:24:9-26:40
+40-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:24:9-26:40
 41            android:name="com.android.youbike.CardNewThreeActivity"
-41-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:25:13-49
+41-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:25:13-49
 42            android:exported="false" />
-42-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:26:13-37
+42-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:26:13-37
 43        <activity
-43-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:27:9-29:40
+43-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:27:9-29:40
 44            android:name="com.android.youbike.RideTicketNewActivity"
-44-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:28:13-50
+44-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:28:13-50
 45            android:exported="false" />
-45-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:29:13-37
+45-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:29:13-37
 46        <activity
-46-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:30:9-32:40
+46-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:30:9-32:40
 47            android:name="com.android.youbike.LostAndFoundActivity"
-47-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:31:13-49
+47-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:31:13-49
 48            android:exported="false" />
-48-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:32:13-37
+48-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:32:13-37
 49        <activity
-49-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:33:9-35:40
+49-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:33:9-35:40
 50            android:name="com.android.youbike.FindBikeActivity"
-50-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:34:13-45
+50-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:34:13-45
 51            android:exported="false" />
-51-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:35:13-37
+51-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:35:13-37
 52        <activity
-52-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:36:9-38:40
+52-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:36:9-38:40
 53            android:name="com.android.youbike.CardNewTwoActivity"
-53-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:37:13-47
+53-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:37:13-47
 54            android:exported="false" />
-54-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:38:13-37
+54-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:38:13-37
 55        <activity
-55-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:39:9-41:40
+55-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:39:9-41:40
 56            android:name="com.android.youbike.CardNewActivity"
-56-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:40:13-44
+56-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:40:13-44
 57            android:exported="false" />
-57-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:41:13-37
+57-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:41:13-37
 58        <activity
-58-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:42:9-44:40
+58-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:42:9-44:40
 59            android:name="com.android.youbike.CardManageActivity"
-59-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:43:13-47
+59-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:43:13-47
 60            android:exported="false" />
-60-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:44:13-37
+60-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:44:13-37
 61        <activity
-61-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:45:9-47:40
+61-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:45:9-47:40
 62            android:name="com.android.youbike.FiTestingActivity"
-62-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:46:13-46
+62-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:46:13-46
 63            android:exported="false" />
-63-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:47:13-37
+63-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:47:13-37
 64        <activity
-64-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:48:9-50:40
+64-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:48:9-50:40
 65            android:name="com.android.youbike.RideTicketManageActivity"
-65-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:49:13-53
+65-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:49:13-53
 66            android:exported="false" />
-66-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:50:13-37
+66-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:50:13-37
 67        <activity
-67-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:51:9-53:40
+67-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:51:9-53:40
 68            android:name="com.android.youbike.LostAndFoundTypeActivity"
-68-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:52:13-53
+68-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:52:13-53
 69            android:exported="false" />
-69-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:53:13-37
+69-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:53:13-37
 70        <activity
-70-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:54:9-56:40
+70-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:54:9-56:40
 71            android:name="com.android.youbike.navigationActivity"
-71-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:55:13-47
+71-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:55:13-47
 72            android:exported="false" />
-72-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:56:13-37
+72-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:56:13-37
 73        <activity
-73-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:57:9-59:40
+73-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:57:9-59:40
 74            android:name="com.android.youbike.paymentActivity"
-74-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:58:13-44
+74-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:58:13-44
 75            android:exported="false" />
-75-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:59:13-37
+75-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:59:13-37
 76        <activity
-76-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:60:9-68:20
+76-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:60:9-68:20
 77            android:name="com.android.youbike.MainActivity"
-77-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:61:13-41
+77-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:61:13-41
 78            android:exported="true" >
-78-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:62:13-36
+78-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:62:13-36
 79            <intent-filter>
-79-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:63:13-67:29
+79-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:63:13-67:29
 80                <action android:name="android.intent.action.MAIN" />
-80-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:64:17-69
-80-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:64:25-66
+80-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:64:17-69
+80-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:64:25-66
 81
 82                <category android:name="android.intent.category.LAUNCHER" />
-82-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:66:17-77
-82-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:66:27-74
+82-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:66:17-77
+82-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:66:27-74
 83            </intent-filter>
 84        </activity>
 85
 86        <uses-library
-86-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:70:9-72:40
+86-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:70:9-72:40
 87            android:name="org.apache.http.legacy"
-87-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:71:13-50
+87-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:71:13-50
 88            android:required="false" />
-88-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:72:13-37
+88-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:72:13-37
 89
 90        <activity
-90-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:74:9-76:40
+90-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:74:9-76:40
 91            android:name="com.android.youbike.AccidentNotificationActivity"
-91-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:75:13-57
+91-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:75:13-57
 92            android:exported="false" />
-92-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:76:13-37
+92-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:76:13-37
 93        <activity
-93-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:77:9-79:40
+93-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:77:9-79:40
 94            android:name="com.android.youbike.ServiceCenterActivity"
-94-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:78:13-50
+94-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:78:13-50
 95            android:exported="false" />
-95-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:79:13-37
+95-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:79:13-37
 96        <activity
-96-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:80:9-82:40
+96-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:80:9-82:40
 97            android:name="com.android.youbike.LoginActivity"
-97-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:81:13-42
+97-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:81:13-42
 98            android:exported="false" />
-98-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:82:13-37
+98-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:82:13-37
 99        <activity
-99-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:83:9-85:40
+99-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:83:9-85:40
 100            android:name="com.android.youbike.TermOfUseActivity"
-100-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:84:13-46
+100-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:84:13-46
 101            android:exported="false" />
-101-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:85:13-37
+101-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:85:13-37
 102        <activity
-102-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:86:9-88:40
+102-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:86:9-88:40
 103            android:name="com.android.youbike.SignUpActivity"
-103-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:87:13-43
+103-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:87:13-43
 104            android:exported="false" />
-104-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:88:13-37
+104-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:88:13-37
 105        <activity
-105-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:89:9-91:40
+105-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:89:9-91:40
 106            android:name="com.android.youbike.InstructionsActivity"
-106-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:90:13-49
+106-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:90:13-49
 107            android:exported="false" />
-107-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:91:13-37
+107-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:91:13-37
 108        <activity
-108-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:92:9-94:40
+108-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:92:9-94:40
 109            android:name="com.android.youbike.EquipmentIntroductionActivity"
-109-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:93:13-58
+109-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:93:13-58
 110            android:exported="false" />
-110-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:94:13-37
+110-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:94:13-37
 111        <activity
-111-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:95:9-97:40
+111-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:95:9-97:40
 112            android:name="com.android.youbike.LeaseModeActivity"
-112-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:96:13-46
+112-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:96:13-46
 113            android:exported="false" />
-113-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:97:13-37
+113-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:97:13-37
 114        <activity
-114-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:98:9-100:40
+114-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:98:9-100:40
 115            android:name="com.android.youbike.SafeRideActivity"
-115-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:99:13-45
+115-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:99:13-45
 116            android:exported="false" />
-116-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:100:13-37
+116-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:100:13-37
 117        <activity
-117-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:101:9-103:40
+117-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:101:9-103:40
 118            android:name="com.android.youbike.FareDescriptionActivity"
-118-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:102:13-52
+118-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:102:13-52
 119            android:exported="false" />
-119-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:103:13-37
+119-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:103:13-37
 120        <activity
-120-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:104:9-106:40
+120-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:104:9-106:40
 121            android:name="com.android.youbike.AccidentNotificationRecordDetailActivity"
-121-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:105:13-69
+121-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:105:13-69
 122            android:exported="false" />
-122-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:106:13-37
+122-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:106:13-37
 123        <activity
-123-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:107:9-109:40
+123-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:107:9-109:40
 124            android:name="com.android.youbike.AccidentNotificationRecordActivity"
-124-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:108:13-63
+124-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:108:13-63
 125            android:exported="false" />
-125-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:109:13-37
+125-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:109:13-37
 126        <activity
-126-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:110:9-112:40
+126-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:110:9-112:40
 127            android:name="com.android.youbike.NoticeActivity"
-127-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:111:13-43
+127-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:111:13-43
 128            android:exported="false" />
-128-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:112:13-37
+128-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:112:13-37
 129        <activity
-129-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:113:9-115:40
+129-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:113:9-115:40
 130            android:name="com.android.youbike.AccidentNotificationFixActivity"
-130-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:114:13-60
+130-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:114:13-60
 131            android:exported="false" />
-131-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:115:13-37
+131-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:115:13-37
 132        <activity
-132-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:116:9-118:40
+132-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:116:9-118:40
 133            android:name="com.android.youbike.AccidentNotificationFixDetailActivity"
-133-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:117:13-66
+133-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:117:13-66
 134            android:exported="false" />
-134-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:118:13-37
+134-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:118:13-37
 135        <activity
-135-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:119:9-123:20
+135-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:119:9-123:20
 136            android:name="com.android.youbike.BikeReportSysActivity"
-136-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:120:13-50
+136-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:120:13-50
 137            android:exported="false" >
-137-->D:\YouBike-1.5\app\src\main\AndroidManifest.xml:121:13-37
+137-->C:\Users\a9536\Downloads\YouBike-1.5\app\src\main\AndroidManifest.xml:121:13-37
 138            android:windowSoftInputMode="stateAlwaysHidden"
 139        </activity>
 140        <activity

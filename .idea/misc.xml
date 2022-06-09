@@ -31,16 +31,30 @@
         <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/res_amount_item.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/scan_bike.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/IRIS/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/stobroad_search.xml" value="0.2418478260869565" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_card_manage.xml" value="0.10054347826086957" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_card_transaction.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_fi_testing.xml" value="0.12409420289855072" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_find_bike.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_login.xml" value="0.17916666666666667" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_lost_and_found.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_manage.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.10054347826086957" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/card_manage_adapter.xml" value="0.17916666666666667" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/scan_bike.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/acticity_service_center_adapter.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_accident_notification.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_bike_reportsys.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_card_transaction.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_lost_and_found.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_service_center.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/activity_service_center_adapter1.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/card_manage_adapter.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/find_bike_adapter.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/a9536/Downloads/YouBike-1.5/app/src/main/res/layout/fragment_bike_report.xml" value="0.33229166666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_card_manage.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_card_new.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_card_new_two.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_cards_new.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_cards_new_two.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_fi_testing.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_find_bike.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_find_bikes.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_lost_and_found.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_lost_and_found_type.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_manage.xml" value="0.15806159420289856" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/YouBike-1.5/app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.151268115942029" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_accident_notification.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/user/Documents/GitHub/YouBike-1.5/app/src/main/res/layout/activity_cards_new.xml" value="0.3333333333333333" />
@@ -73,7 +87,6 @@
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_card_new.xml" value="0.25" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_card_new_three.xml" value="0.31068840579710144" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_card_new_two.xml" value="0.31068840579710144" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_card_transaction.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_manage.xml" value="0.33" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_new.xml" value="0.33" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_cards_new_two.xml" value="0.33" />
@@ -105,7 +118,6 @@
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_signup.xml" value="0.33" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/activity_termofuse.xml" value="0.2" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/card_manage_adapter.xml" value="0.33" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/card_transaction_adapter.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/error_dialog.xml" value="0.33125" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/find_bike_adapter.xml" value="0.31068840579710144" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_bike_report.xml" value="0.33229166666666665" />
@@ -116,14 +128,11 @@
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.16145307769929365" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.33" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.16145307769929365" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/lost_and_found_adapter.xml" value="0.33" />
+        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/lost_and_found_adapter.xml" value="0.31068840579710144" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/main_nav_drawer.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/main_toolbar.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/notification_dialog.xml" value="0.31068840579710144" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/orgainze.xml" value="0.33229166666666665" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/pay.xml" value="0.33229166666666665" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/paymentAdapter.xml" value="0.33229166666666665" />
-        <entry key="..\:/YouBike-1.5/app/src/main/res/layout/payment_adapter.xml" value="0.33125" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/region_choose.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/res_amount_item.xml" value="0.33229166666666665" />
         <entry key="..\:/YouBike-1.5/app/src/main/res/layout/res_fix_item.xml" value="0.33229166666666665" />
@@ -145,7 +154,6 @@
         <entry key="app/src/main/res/drawable-anydpi/mail.xml" value="0.201" />
         <entry key="app/src/main/res/drawable-anydpi/password_icon.xml" value="0.201" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
-        <entry key="app/src/main/res/drawable/ic_change.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/shape1.xml" value="0.1685" />
         <entry key="app/src/main/res/drawable/shape2.xml" value="0.1685" />
@@ -164,7 +172,7 @@
         <entry key="app/src/main/res/layout/activity_lost_and_found.xml" value="0.5659103393554688" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2762176513671877" />
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.11871026080587632" />
-        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_navigation.xml" value="0.16889844500152756" />
         <entry key="app/src/main/res/layout/activity_payment.xml" value="0.22392120361328133" />
         <entry key="app/src/main/res/layout/activity_ride_ticket_new.xml" value="0.2570409138997396" />
         <entry key="app/src/main/res/layout/activity_safe_ride.xml" value="0.23489583333333333" />
@@ -176,7 +184,7 @@
         <entry key="app/src/main/res/layout/fragment_safe_ride_one.xml" value="0.32974853515625" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_three.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_safe_ride_two.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.30566253662109377" />
+        <entry key="app/src/main/res/layout/main_nav_drawer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/main_toolbar.xml" value="0.22135416666666666" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.19895833333333332" />
       </map>

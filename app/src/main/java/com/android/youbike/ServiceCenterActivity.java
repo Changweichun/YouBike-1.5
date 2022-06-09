@@ -19,6 +19,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.youbike.adapter.PhoneClickListener;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -161,19 +163,21 @@ public class ServiceCenterActivity extends AppCompatActivity {
                     JSONObject jsonData = jsonArray.getJSONObject(i);
                     items.add(new ServiceCenter_list(jsonData.getString("name"), jsonData.getString("address"), jsonData.getString("detail"), jsonData.getString("phone")));
                 }
-                ServiceCenterAdapter SA = new ServiceCenterAdapter(context, items, new ServiceCenterAdapter.OnItemClickListener() {
+                ServiceCenterAdapter SA = new ServiceCenterAdapter(context, items, new PhoneClickListener() {
                     @Override
-                    public void onClick(int pos, String phone) {
-
-                        if (pos % 2 != 0){
-                            Intent intent = new Intent(Intent.ACTION_DIAL);
-                            Uri uri = Uri.parse(String.format("tel:%1$s", phone));
-                            intent.setData(uri);
-                            startActivity(intent);
-                        }
+                    public void onOhoneClicked(View v, int position, String phone) {
+                        v.findViewById(R.id.phoneview).setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                Intent intent = new Intent(Intent.ACTION_DIAL);
+                                Uri uri = Uri.parse(String.format("tel:%1$s", phone));
+                                intent.setData(uri);
+                                startActivity(intent);
+                            }
+                        });
                     }
                 });
-                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+                        recyclerView.setLayoutManager(new LinearLayoutManager(context));
                 recyclerView.setAdapter(SA);
             }
         } catch (Exception e) {
