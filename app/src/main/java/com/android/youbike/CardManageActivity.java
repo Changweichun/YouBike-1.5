@@ -123,7 +123,12 @@ public class CardManageActivity extends AppCompatActivity {
                 CardManageAdapter adapter = new CardManageAdapter(context, list, new ClickListener() {
                     @Override
                     public void onSelectClicked(View v, int position, String id, String type) {
-                        Toast.makeText(CardManageActivity.this, "敬請期待", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent();
+                        intent.setClass(CardManageActivity.this, CardTransactionActivity.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putString("card", id);
+                        intent.putExtras(bundle);
+                        startActivity(intent);
                     }
 
                     @Override
