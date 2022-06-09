@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:backgroundTint="@null"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="58dp"
+            android:layout_height="41dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027"
+            app:srcCompat="@mipmap/card_1" />
+
+        <TextView
+            android:id="@+id/card_num"
+            android:layout_width="117dp"
+            android:layout_height="30dp"
+            android:text="89889567"
+            android:textAlignment="center"
+            android:textColor="@color/holo_orange_dark"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E7E7E7" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="2dp"/>
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:08:10"
+            android:layout_marginLeft="5dp" />
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@mipmap/baseline_add_card_black_18" />
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="扣款失敗"
+ />
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="24dp"
+            android:layout_height="19dp"
+            app:srcCompat="@mipmap/img_7"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:id="@+id/bikeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0200246" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="22dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="30dp"
+            android:text="借"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/startSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="輔大捷運站(4號出口)" />
+
+            <TextView
+                android:id="@+id/startTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022/3/8 12:46:23" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="23dp"
+            android:layout_height="21dp"
+            android:text="還"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"/>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:id="@+id/endSite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新莊國民運動中心"
+                android:lines="1"/>
+            <TextView
+                android:id="@+id/endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2022/3/28 12:54:33" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="34dp"
+            android:layout_height="33dp"
+            android:outlineAmbientShadowColor="@color/holo_orange_dark"
+            app:srcCompat="@mipmap/img_9"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="@color/holo_orange_dark"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"/>
+<!--        <Button-->
+<!--            android:id="@+id/paybtn"-->
+<!--            android:layout_width="88dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:backgroundTint="@color/holo_orange_dark"-->
+<!--            android:text="繳費"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.9"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.333" />-->
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+</LinearLayout>
